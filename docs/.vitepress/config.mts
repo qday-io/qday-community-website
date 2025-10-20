@@ -7,7 +7,7 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: "icon", href: "/favicon.jpg"}]
+    ['link', { rel: "icon", href: "/favicon.ico"}]
   ],
 
   locales: {
