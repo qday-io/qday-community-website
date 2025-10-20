@@ -21,7 +21,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Docs', link: '/guide/' },
-          { text: 'API', link: '/apis/' },
+          { text: 'API', link: '/api/' },
           { text: 'FAQ', link: '/faq/' },
           { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
         ],
@@ -86,7 +86,7 @@ export default defineConfig({
         nav: [
           { text: '首頁', link: '/zh/' },
           { text: '文檔', link: '/zh/guide/' },
-          { text: 'API', link: '/zh/apis/' },
+          { text: 'API', link: '/zh/api/' },
           { text: '問答', link: '/zh/faq/' },
           { text: '詢問 Hako', link: 'https://hako.pqabelian.io/zh/' }
         ],
@@ -108,7 +108,7 @@ export default defineConfig({
                   items: [
                     { text: 'QDay 簡介', link: '/zh/guide/' },
                     { text: 'QDay 基礎知識', link: '/zh/guide/basics' },
-                    { text: 'MetaMask 錢包', link: '/zh/guide/qday-testnet/metamask' }
+                    { text: 'MetaMask 錢包', link: '/zh/guide/metamask' }
                   ]
                 },
                 //{ text: 'QDay 測試網用戶指南',
