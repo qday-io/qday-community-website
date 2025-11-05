@@ -36,46 +36,59 @@ outline: deep
    ![驗證 MetaMask 助記詞](/qday/metamask/verify-metamask-mnemonic.png)
 6. 在 “Help us improve MetaMask（協助我們改進 MetaMask）” 頁面，按需選擇，點擊 “Continue（繼續）” 按鈕，在 “Your wallet is ready!（你的錢包已準備好！）” 點擊 “完成” 完成錢包創建。
    ![MetaMask 改進](/qday/metamask/metamask-improve.png)
-7. 按照上面的建立步驟建立完成後，點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部中間的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet” 再建立一個新帳戶;
-   ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
-8. 在新增帳戶頁面，選擇 “Add a new account” 建立新帳戶；
-   ![新增 MetaMask 帳戶](/qday-testnet/metamask/add-new-metamask-account.png)
-9. 輸入帳戶名稱，這裡示例帳戶命名 “Account2”，點擊 “建立” 完成建立新帳戶，兩個帳戶可以在帳戶列表中切換。
-   ![輸入 MetaMask 帳戶名稱](/qday-testnet/metamask/input-metamask-account.png)
-10. 建立完成後，同樣需要備份一次 Account2 的私鑰，點擊右側三點的選單圖標，選擇 “帳戶詳情”；
-   ![MetaMask 帳戶詳情](/qday-testnet/metamask/metamask-account-detail.png)
-11. 在帳戶詳情頁面，點擊 “顯示私鑰” 按鈕，輸入密碼，點擊 “按住以顯示私鑰” ，之後會顯示私鑰，複製私鑰字符串到本地完成備份（非常重要！），並妥善保管。
-   ![MetaMask 帳戶顯示私鑰](/qday-testnet/metamask/metamask-account-privatekey1.png)
-   ![MetaMask 備份私鑰](/qday-testnet/metamask/metamask-account-privatekey2.png)
 
 **注意**：助記詞和私鑰是你錢包帳戶的唯一備份，務必妥善保管，不要與他人分享。
 
-## 新增 QDay 到 MetaMask
-
-### 自動新增 QDay 至 MetaMask 網路列表
-(區塊鏈瀏覽器自動新增 QDay Testnet 至 MetaMask 網路功能稍後推出)
-
-### 手動新增 QDay 到 MetaMask 網路列表
-
-1. 開啟 MetaMask，點擊左上角的網路列表選擇器（預設顯示 “Ethereum Mainnet”），選擇 “顯示測試網路” ，然後點擊 “新增網路” 按鈕；
-   ![MetaMask 新增網路](/qday-testnet/metamask/add-metamask-network1.png)
-2. 在彈出的新增網路頁面頁面中，點擊頁面底部的 “手動新增網路”；
-   ![手動新增 QDay 網路](/qday-testnet/metamask/add-metamask-network2.png)
-3. 在手動新增網路頁面，填寫以下資訊：
-   - **網路名稱**: QDay
-   - **新的 RPC URL**: `https://rpc.qday.io`
-   - **鏈 ID**: 44001
-   - **貨幣符號**: QDAY
-   - **區塊瀏覽器 URL（可選）**: `https://explorer.qday.io`
-   ![手動新增 QDay 網路](/qday/metamask/add-metamask-network3.png)
-   點擊 “保存” 按鈕完成新增。
-4. 在 “網路新增成功！” 提示框中點擊 “切換至 QDay Testnet”，或者在 MetaMask 左上角的網路列表選擇器中選擇並切換到 “QDay”。
-   ![MetaMask 切換 QDay 網路](/qday/metamask/switch-metamask-qday-network.png)
-
 ## 取得錢包地址
 
-在瀏覽器工具欄中點擊 MetaMask 擴充程式圖標，彈出視窗中點擊頂部中間的 “Account1” 地址後面的複製圖標，並保存到本地（後續操作需要用到）。
-![取得 MetaMask 錢包地址](/qday-testnet/metamask/get-metamask-address.png)
+1. 在瀏覽器工具欄中點擊 MetaMask 圖標，彈出視窗中點擊頂部左側的 “Account 1” 後面的下拉圖標；
+   ![选择 MetaMask 錢包](/qday/metamask/get-metamask-address1.png)
+2. 在帳戶列表中點擊 “Account 1” 後面的三點選單圖標，在彈出的菜單中選擇 “Addresses（地址）”；
+   ![展开 MetaMask 錢包菜单](/qday/metamask/get-metamask-address2.png)
+3. 在 “Addresses（地址）” 頁面，點擊 “Copy to clipboard（複製到剪貼板）” 圖標按鈕，複製錢包地址到本地剪貼簿，或者點擊 “Show QRCode（顯示二維碼）” 圖標按鈕，在錢包地址下方點擊 “Copy address（複製地址）” 按鈕，複製錢包地址到本地剪貼簿，此處二維碼方便使用移動錢包進行掃碼轉帳。
+   ![複製 MetaMask 錢包地址](/qday/metamask/get-metamask-address3.png)
+
+## 新增 QDAY 網路到 MetaMask
+
+### 自動新增 QDAY 至 MetaMask 網路列表
+(區塊鏈瀏覽器自動新增 QDay 至 MetaMask 網路功能稍後推出)
+
+### 手動新增 QDAY 到 MetaMask 網路列表
+
+1. 在瀏覽器工具欄中點擊 MetaMask 圖標，彈出視窗中點擊頂部右側的 “☰” 菜單圖標，在下拉菜單中選擇 “網路”；
+   ![MetaMask 網路菜單](/qday/metamask/metamask-network-menu.png)
+2. 在彈出的 “Manage networks（管理網路）” 頁面點擊底部的 “Add a custom network（新增自訂網路）” 按鈕；
+   ![手動新增 QDAY 網路](/qday/metamask/add-metamask-network1.png)
+3. 在手動新增網路頁面，填寫以下資訊：
+   - **網路名稱**: QDAY
+   - **Default RPC URL（預設 RPC 連結）**: `https://rpc.qday.io`
+   - **鏈 ID**: 44001
+   - **貨幣代碼**: QDAY
+   - **區塊瀏覽器**: `https://explorer.qday.io`
+   ![手動新增 QDay 網路](/qday/metamask/add-metamask-network2.png)
+   點擊 “儲存” 按鈕完成新增。
+
+### 連接 QDAY 網路
+
+點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDay”。
+   ![MetaMask 切換 QDay 網路](/qday/metamask/switch-metamask-qday-network.png)
+
+## 汇入 QDAY 钱包
+
+:::tip 提示
+此步驟需要先從 Abelian Pro 移動錢包的 QDAY 錢包帳戶詳情頁面備份的私鑰，然後匯入到 MetaMask 錢包帳戶。
+:::
+
+1. 點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部左側的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet（新增錢包）” 再建立一個新帳戶;
+   ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
+2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 来汇入来自 Abelian Pro 的 QDAY 錢包帳戶；
+   ![匯入 QDAY 錢包帳戶](/qday/metamask/import-qday-account.png)
+3. 在 “Add wallet（新增錢包）” 頁面，选择 “私鑰” 并輸入從 Abelian Pro 移動錢包備份的私鑰字符串，點擊 “匯入” 按鈕完成 QDAY 錢包匯入；
+   ![輸入 QDAY 錢包私鑰](/qday/metamask/input-qday-privatekey.png)
+4. 在帳戶列表界面會新增一個名為 “Imported Account 1” 的錢包帳戶，這裡可以點擊右側的三點菜單圖標，在彈出的菜單中選擇 “Rename（重命名）”，在彈出的 “帳戶名稱” 框中輸入新的錢包名稱，完成後點擊 “確認” 按鈕完成重命名；
+   ![重命名 MetaMask 帳戶](/qday/metamask/rename-metamask-account.png)
+5. 這裡示例帳戶命名 “QDAY-1”，點擊選擇该帳戶，兩個帳戶可以在帳戶列表中切換。
+   ![選擇 MetaMask 帳戶](/qday/metamask/select-metamask-account.png)
 
 ## 新增 QDay ERC20 代幣到 MetaMask
 
@@ -92,7 +105,7 @@ outline: deep
 
 ### 添加 USD8 代幣到 MetaMask
 
-1. 在瀏覽器工具欄中點擊 MetaMask 擴充程式圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
+1. 在瀏覽器工具欄中點擊 MetaMask 圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
    ![MetaMask 匯入 pqUSD 代幣1](/qday/metamask/import-tokens1.png)
 2. 在 “Import tokens（匯入代幣）” 頁面先選擇 QDAY 網路，然後在 “Token contract address（代幣合約地址）” 欄中輸入 USD8 Token 地址：`0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
    ![MetaMask 匯入 pqUSD 代幣2](/qday/metamask/import-tokens2.png)
