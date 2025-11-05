@@ -16,7 +16,7 @@ outline: deep
    ![Firefox 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/firefox-metamask-install.png)<br>
    - 對於 Microsoft Edge 瀏覽器，點擊 “[Install MetaMask for Microsoft Edge（為 Microsoft Edge 安裝 MetaMask）](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
    ![Microsoft Edge 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/edge-metamask-install.png)<br>
-3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension（擴充功能）” 或 “Install（安裝）”。
+3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension（擴充程式）” 或 “Install（安裝）”。
    ![MetaMask 安裝頁面](/qday-testnet/metamask/add-to-edge.png)
 4. 安裝完成後，會開啟一個 MetaMask 設定頁面，或者點擊瀏覽器右上角的擴充圖標，在下拉選單中選擇 MetaMask 圖標，開始設定。
    ![MetaMask 擴充程式圖標位置](/qday-testnet/metamask/metamask-display-icon.png)
@@ -24,7 +24,7 @@ outline: deep
 
 ## 建立 MetaMask 錢包帳戶
 
-1. 點擊工具欄中的 MetaMask 圖標，開啟 MetaMask 擴充程式設定頁面，點擊 “Create a new wallet（建立新錢包）”（不建議匯入舊的錢包）；
+1. 點擊工具欄中的 MetaMask 圖標，開啟 MetaMask 擴充程式設定頁面，點擊 “Create a new wallet（建立新錢包）”；
    ![建立 MetaMask 錢包](/qday/metamask/create-metamask-wallet.png)
 2. 在彈出的 “Choose an option to continue（選擇一個選項繼續）” 窗口，點擊 “Use Secret Recovery Phrase（使用助記詞）”；
    ![選擇使用助記詞](/qday/metamask/create-metamask-wallet2.png)
@@ -70,13 +70,13 @@ outline: deep
 
 ### 連接 QDAY 網路
 
-點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
+點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens（）” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
    ![MetaMask 切換 QDAY 網路](/qday/metamask/switch-metamask-qday-network.png)
 
 ## 汇入 QDAY 钱包
 
 :::tip 提示
-此步驟需要先從 Abelian Pro 移動錢包的 QDAY 錢包帳戶詳情頁面備份的私鑰，然後匯入到 MetaMask 錢包帳戶。
+此步驟需要先從 Abelian Pro 行動錢包應用程式的 QDAY 錢包帳戶詳情頁面備份私鑰，然後按照下面的步驟將 QDAY 錢包帳戶匯入到 MetaMask。
 :::
 
 1. 點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部左側的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet（新增錢包）” 再建立一個新帳戶;
@@ -92,17 +92,6 @@ outline: deep
 
 ## 新增 QDAY ERC20 代幣到 MetaMask
 
-<!-- ### 代幣合約地址清單
-
-| 合約名稱 | 地址 | 描述 |
-| --- | --- | --- |
-| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約 |
-| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
-| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
-| cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | Abel質押流動性提供合約 |
-| cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | Abel質押流動性提供合約 |
--->
-
 ### 添加 USD8 代幣到 MetaMask
 
 1. 在瀏覽器工具欄中點擊 MetaMask 圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
@@ -116,6 +105,16 @@ outline: deep
    ![MetaMask 顯示 USD8 代幣](/qday/metamask/usd8-tokens.png)
 
 <!-- ### 添加 WQDAY、WABEL、cvxQDAY 代幣
+
+### 代幣合約地址清單
+
+| 合約名稱 | 地址 | 描述 |
+| --- | --- | --- |
+| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約 |
+| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
+| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
+| cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | Abel質押流動性提供合約 |
+| cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | Abel質押流動性提供合約 |
 
 提示：[按照 PQUSD 的步驟](#添加-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣添加到 MetaMask。
 -->
