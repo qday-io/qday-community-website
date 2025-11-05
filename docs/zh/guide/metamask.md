@@ -76,25 +76,28 @@ outline: deep
 
 ## 新增 QDay ERC20 代幣到 MetaMask
 
-### 代幣合約地址清單
+//### 代幣合約地址清單
 
-| 合約名稱 | 地址 | 描述 |
-| --- | --- | --- |
-| wQDAY | 0x1e16f76d65A800812E459a4cc94ce829D3993F00 | 包裝QDAY代幣合約 |
-| PQUSD | 0x789100cAF4fF90b3a548FAb6C773Ab739D349B2a | PQ美元代幣合約 |
-| wABEL | 0x712c5e4b658f3e602cebf284703c51b1ae762309 | 包裝ABEL代幣合約 |
-| CVXQDAY | 0x0bb5d6bd51989b3b869f2a3aacbd1f7b36d5b498 | Abel質押流動性提供合約 |
+//| 合約名稱 | 地址 | 描述 |
+//| --- | --- | --- |
+//| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約 |
+//| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
+//| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
+//| cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | Abel質押流動性提供合約 |
+//| cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | Abel質押流動性提供合約 |
 
-### 添加 PQUSD 代幣到 MetaMask
+### 添加 USD8 代幣到 MetaMask
 
-1. 在瀏覽器工具欄中點擊 MetaMask 擴充程式圖標，在主介面的 “Tokens” 標籤頁中點擊 “Import tokens”；
-   ![MetaMask 匯入 Token](/qday-testnet/metamask/import-tokens1.png)
-2. 在 “Import tokens” 頁面的 “Token contract address” 欄中輸入 pqUSD Token 地址：`0x789100cAF4fF90b3a548FAb6C773Ab739D349B2a`;
-   ![MetaMask 匯入 pqUSD Token](/qday-testnet/metamask/import-tokens2.png)
-3. 稍等一會會自動載入 pqUSD Token 的資訊（Token symbol 和 Token decimal），點擊 “Next” 按鈕完成匯入。
-4. MetaMask 主介面的 Tokens 標籤頁可以看到已經顯示了 pqUSD Token 的餘額。
-   ![MetaMask pqUSD Token](/qday-testnet/metamask/pqusd-tokens.png)
+1. 在瀏覽器工具欄中點擊 MetaMask 擴充程式圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
+   ![MetaMask 匯入 pqUSD 代幣1](/qday/metamask/import-tokens1.png)
+2. 在 “Import tokens（匯入代幣）” 頁面先選擇 QDAY 網路，然後在 “Token contract address（代幣合約地址）” 欄中輸入 USD8 Token 地址：`0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
+   ![MetaMask 匯入 pqUSD 代幣2](/qday/metamask/import-tokens2.png)
+3. 稍等一會會自動載入 pqUSD Token 的資訊 - Token symbol（代幣符號） 和 Token decimal（代幣小數點單位），點擊 “Next（下一步）” 按鈕；
+4. 顯示確認匯入視窗，點擊 “Import（匯入）” 按鈕完成匯入。
+   ![MetaMask 匯入 USD8 代幣3](/qday/metamask/import-tokens3.png)
+5. MetaMask 主介面的 Tokens（代幣） 標籤頁可以看到已經顯示了 USD8 代幣的餘額數字。
+   ![MetaMask 顯示 USD8 代幣](/qday/metamask/usd8-tokens.png)
 
-### 添加 wQDAY、wABEL、CVXQDAY 代幣
+//### 添加 WQDAY、WABEL、cvxQDAY 代幣
 
-提示：[按照 PQUSD 的步驟](#添加-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣添加到 MetaMask。
+//提示：[按照 PQUSD 的步驟](#添加-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣添加到 MetaMask。
