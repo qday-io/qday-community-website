@@ -51,7 +51,7 @@ outline: deep
 ## 新增 QDAY 網路到 MetaMask
 
 ### 自動新增 QDAY 至 MetaMask 網路列表
-(區塊鏈瀏覽器自動新增 QDay 至 MetaMask 網路功能稍後推出)
+(區塊鏈瀏覽器自動新增 QDAY 至 MetaMask 網路功能稍後推出)
 
 ### 手動新增 QDAY 到 MetaMask 網路列表
 
@@ -65,13 +65,13 @@ outline: deep
    - **鏈 ID**: 44001
    - **貨幣代碼**: QDAY
    - **區塊瀏覽器**: `https://explorer.qday.io`
-   ![手動新增 QDay 網路](/qday/metamask/add-metamask-network2.png)
+   ![手動新增 QDAY 網路](/qday/metamask/add-metamask-network2.png)
    點擊 “儲存” 按鈕完成新增。
 
 ### 連接 QDAY 網路
 
-點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDay”。
-   ![MetaMask 切換 QDay 網路](/qday/metamask/switch-metamask-qday-network.png)
+點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
+   ![MetaMask 切換 QDAY 網路](/qday/metamask/switch-metamask-qday-network.png)
 
 ## 汇入 QDAY 钱包
 
@@ -90,7 +90,7 @@ outline: deep
 5. 這裡示例帳戶命名 “QDAY-1”，點擊選擇该帳戶，兩個帳戶可以在帳戶列表中切換。
    ![選擇 MetaMask 帳戶](/qday/metamask/select-metamask-account.png)
 
-## 新增 QDay ERC20 代幣到 MetaMask
+## 新增 QDAY ERC20 代幣到 MetaMask
 
 <!-- ### 代幣合約地址清單
 
@@ -106,10 +106,10 @@ outline: deep
 ### 添加 USD8 代幣到 MetaMask
 
 1. 在瀏覽器工具欄中點擊 MetaMask 圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
-   ![MetaMask 匯入 pqUSD 代幣1](/qday/metamask/import-tokens1.png)
+   ![MetaMask 匯入 USD8 代幣1](/qday/metamask/import-tokens1.png)
 2. 在 “Import tokens（匯入代幣）” 頁面先選擇 QDAY 網路，然後在 “Token contract address（代幣合約地址）” 欄中輸入 USD8 Token 地址：`0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
-   ![MetaMask 匯入 pqUSD 代幣2](/qday/metamask/import-tokens2.png)
-3. 稍等一會會自動載入 pqUSD Token 的資訊 - Token symbol（代幣符號） 和 Token decimal（代幣小數點單位），點擊 “Next（下一步）” 按鈕；
+   ![MetaMask 匯入 USD8 代幣2](/qday/metamask/import-tokens2.png)
+3. 稍等一會會自動載入 USD8 Token 的資訊 - Token symbol（代幣符號） 和 Token decimal（代幣小數點單位），點擊 “Next（下一步）” 按鈕；
 4. 顯示確認匯入視窗，點擊 “Import（匯入）” 按鈕完成匯入。
    ![MetaMask 匯入 USD8 代幣3](/qday/metamask/import-tokens3.png)
 5. MetaMask 主介面的 Tokens（代幣） 標籤頁可以看到已經顯示了 USD8 代幣的餘額數字。
