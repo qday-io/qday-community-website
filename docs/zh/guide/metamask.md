@@ -70,10 +70,10 @@ outline: deep
 
 ### 連接 QDAY 網路
 
-點擊工具欄中的 MetaMask 圖標，在账户界面點擊 “Tokens（）” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
+點擊工具欄中的 MetaMask 圖標，在帳戶界面點擊 “Tokens（代幣）” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
    ![MetaMask 切換 QDAY 網路](/qday/metamask/switch-metamask-qday-network.png)
 
-## 汇入 QDAY 钱包
+## 匯入 QDAY 钱包
 
 :::tip 提示
 此步驟需要先從 Abelian Pro 行動錢包應用程式的 QDAY 錢包帳戶詳情頁面備份私鑰，然後按照下面的步驟將 QDAY 錢包帳戶匯入到 MetaMask。
@@ -81,7 +81,7 @@ outline: deep
 
 1. 點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部左側的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet（新增錢包）” 再建立一個新帳戶;
    ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
-2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 来汇入来自 Abelian Pro 的 QDAY 錢包帳戶；
+2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 匯入來自 Abelian Pro 的 QDAY 錢包帳戶；
    ![匯入 QDAY 錢包帳戶](/qday/metamask/import-qday-account.png)
 3. 在 “Add wallet（新增錢包）” 頁面，选择 “私鑰” 并輸入從 Abelian Pro 移動錢包備份的私鑰字符串，點擊 “匯入” 按鈕完成 QDAY 錢包匯入；
    ![輸入 QDAY 錢包私鑰](/qday/metamask/input-qday-privatekey.png)
@@ -92,7 +92,7 @@ outline: deep
 
 ## 新增 QDAY ERC20 代幣到 MetaMask
 
-### 添加 USD8 代幣到 MetaMask
+### 新增 USD8 代幣到 MetaMask
 
 1. 在瀏覽器工具欄中點擊 MetaMask 圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
    ![MetaMask 匯入 USD8 代幣1](/qday/metamask/import-tokens1.png)
@@ -104,7 +104,7 @@ outline: deep
 5. MetaMask 主介面的 Tokens（代幣） 標籤頁可以看到已經顯示了 USD8 代幣的餘額數字。
    ![MetaMask 顯示 USD8 代幣](/qday/metamask/usd8-tokens.png)
 
-<!-- ### 添加 WQDAY、WABEL、cvxQDAY 代幣
+<!-- ### 新增 WQDAY、WABEL、cvxQDAY 代幣
 
 ### 代幣合約地址清單
 
@@ -116,5 +116,5 @@ outline: deep
 | cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | Abel質押流動性提供合約 |
 | cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | Abel質押流動性提供合約 |
 
-提示：[按照 PQUSD 的步驟](#添加-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣添加到 MetaMask。
+提示：[按照 PQUSD 的步驟](#新增-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣新增到 MetaMask。
 -->
