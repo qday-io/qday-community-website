@@ -10,13 +10,13 @@ outline: deep
 
 2. 選擇適合你瀏覽器的擴充程式並安裝：
 
-   - 對於 Chrome 瀏覽器，點擊 “[Install MetaMask for Chrome](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
+   - 對於 Chrome 瀏覽器，點擊 “[Install MetaMask for Chrome（為 Chrome 安裝 MetaMask）](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
    ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/chrome-metamask-install.png)<br>
-   - 對於 Firefox 瀏覽器，點擊 “[Install MetaMask for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
+   - 對於 Firefox 瀏覽器，點擊 “[Install MetaMask for Firefox（為 Firefox 安裝 MetaMask）](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
    ![Firefox 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/firefox-metamask-install.png)<br>
-   - 對於 Microsoft Edge 瀏覽器，點擊 “[Install MetaMask for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
+   - 對於 Microsoft Edge 瀏覽器，點擊 “[Install MetaMask for Microsoft Edge（為 Microsoft Edge 安裝 MetaMask）](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
    ![Microsoft Edge 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/edge-metamask-install.png)<br>
-3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension” 或 “Install”。
+3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension（擴充功能）” 或 “Install（安裝）”。
    ![MetaMask 安裝頁面](/qday-testnet/metamask/add-to-edge.png)
 4. 安裝完成後，會開啟一個 MetaMask 設定頁面，或者點擊瀏覽器右上角的擴充圖標，在下拉選單中選擇 MetaMask 圖標，開始設定。
    ![MetaMask 擴充程式圖標位置](/qday-testnet/metamask/metamask-display-icon.png)
@@ -24,24 +24,27 @@ outline: deep
 
 ## 建立 MetaMask 錢包帳戶
 
-1. 在 MetaMask 擴充程式設定頁面，勾選 “我同意MetaMask的使用條款”，然後點擊 “建立新錢包”（不建議匯入舊的錢包）；
-   ![建立 MetaMask 錢包](/qday-testnet/metamask/create-metamask-wallet.png)
-2. 在授權頁面點擊 “我同意” 繼續；
-3. 在建立密碼頁面，設定一個強密碼，勾選 “我明白 MetaMask 無法為我恢復此密碼。” 後點擊 “建立新錢包”；
-   ![設定 MetaMask 密碼](/qday-testnet/metamask/set-metamask-password.png)
-4. 在安全錢包頁面，點擊 “保護我的錢包（推薦）” 複製12個單字的助記詞備份到本地（非常重要！），並妥善保管。完成後點擊 “下一步”；
-   ![備份 MetaMask 助記詞](/qday-testnet/metamask/backup-metamask-mnemonic.png)
-5. 在確認私鑰助記詞頁面，按照提示的順序填寫空缺的單字來驗證你的助記詞，點擊 “確認” 完成帳戶建立；
-   ![驗證 MetaMask 助記詞](/qday-testnet/metamask/verify-metamask-mnemonic.png)
-6. 按照上面的建立步驟建立完成後，點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部中間的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add account or hardware wallet” 再建立一個新帳戶;
-   ![新增 MetaMask 帳戶](/qday-testnet/metamask/add-metamask-account.png)
-7. 在新增帳戶頁面，選擇 “Add a new account” 建立新帳戶；
+1. 點擊工具欄中的 MetaMask 圖標，開啟 MetaMask 擴充程式設定頁面，點擊 “Create a new wallet（建立新錢包）”（不建議匯入舊的錢包）；
+   ![建立 MetaMask 錢包](/qday/metamask/create-metamask-wallet.png)
+2. 在彈出的 “Choose an option to continue（選擇一個選項繼續）” 窗口，點擊 “Use Secret Recovery Phrase（使用助記詞）”；
+   ![選擇使用助記詞](/qday/metamask/create-metamask-wallet2.png)
+3. 在建立密碼頁面，設定一個強密碼，勾選 “If I lose this password, MetaMask can’t reset it.（如果我丟失這個密碼，MetaMask 無法為我恢復此密碼。）” 後點擊 “Create password（建立密碼）”；
+   ![設定 MetaMask 密碼](/qday/metamask/set-metamask-password.png)
+4. 在 “Save your Secret Recovery Phrase（保存您的助記詞）” 頁面，點擊 “Tap to reveal（點擊以顯示）” 區域，顯示助記詞，複製12個單字的助記詞備份到本地（非常重要！），並妥善保管。完成後點擊 “繼續” 按鈕；
+   ![備份 MetaMask 助記詞](/qday/metamask/backup-metamask-mnemonic.png)
+5. 在 “Confirm your Secret Recovery Phrase（確認助記詞）”頁面，按照提示的順序選擇底部三個對應的單詞填寫空缺的部分來驗證你的助記詞，點擊 “繼續”，驗證無誤會彈出 “Perfect That’s right!（太好了，沒錯！）” 窗口點擊 “Got it（知道了）” 按鈕；
+   ![驗證 MetaMask 助記詞](/qday/metamask/verify-metamask-mnemonic.png)
+6. 在 “Help us improve MetaMask（協助我們改進 MetaMask）” 頁面，按需選擇，點擊 “Continue（繼續）” 按鈕，在 “Your wallet is ready!（你的錢包已準備好！）” 點擊 “完成” 完成錢包創建。
+   ![MetaMask 改進](/qday/metamask/metamask-improve.png)
+7. 按照上面的建立步驟建立完成後，點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部中間的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet” 再建立一個新帳戶;
+   ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
+8. 在新增帳戶頁面，選擇 “Add a new account” 建立新帳戶；
    ![新增 MetaMask 帳戶](/qday-testnet/metamask/add-new-metamask-account.png)
-8. 輸入帳戶名稱，這裡示例帳戶命名 “Account2”，點擊 “建立” 完成建立新帳戶，兩個帳戶可以在帳戶列表中切換。
+9. 輸入帳戶名稱，這裡示例帳戶命名 “Account2”，點擊 “建立” 完成建立新帳戶，兩個帳戶可以在帳戶列表中切換。
    ![輸入 MetaMask 帳戶名稱](/qday-testnet/metamask/input-metamask-account.png)
-9. 建立完成後，同樣需要備份一次 Account2 的私鑰，點擊右側三點的選單圖標，選擇 “帳戶詳情”；
+10. 建立完成後，同樣需要備份一次 Account2 的私鑰，點擊右側三點的選單圖標，選擇 “帳戶詳情”；
    ![MetaMask 帳戶詳情](/qday-testnet/metamask/metamask-account-detail.png)
-10. 在帳戶詳情頁面，點擊 “顯示私鑰” 按鈕，輸入密碼，點擊 “按住以顯示私鑰” ，之後會顯示私鑰，複製私鑰字符串到本地完成備份（非常重要！），並妥善保管。
+11. 在帳戶詳情頁面，點擊 “顯示私鑰” 按鈕，輸入密碼，點擊 “按住以顯示私鑰” ，之後會顯示私鑰，複製私鑰字符串到本地完成備份（非常重要！），並妥善保管。
    ![MetaMask 帳戶顯示私鑰](/qday-testnet/metamask/metamask-account-privatekey1.png)
    ![MetaMask 備份私鑰](/qday-testnet/metamask/metamask-account-privatekey2.png)
 
