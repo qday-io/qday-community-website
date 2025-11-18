@@ -21,8 +21,27 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/' },
           { text: 'Docs', link: '/guide/' },
-          { text: 'API', link: '/api/' },
-          { text: 'FAQ', link: '/faq/' },
+          { text: 'Mainnet',
+            items: [
+              { text: 'Explorer', link: 'https://explorer.qday.io' },
+              { text: 'Portal', link: 'https://portal.qday.io' },
+              { text: 'ABEL Bridge', link: 'https://abel-bridge.qday.io' },
+              { text: 'Swap', link: 'https://swap.qday.io' },
+              { text: 'ABEL Staking', link: 'https://abel-staking.qday.io' },
+              { text: 'QDay Staking', link: 'https://qday-staking.qday.io' }
+            ]
+          },
+          { text: 'Testnet',
+            items: [
+              { text: 'Explorer', link: 'https://explorer.qday.info' },
+              { text: 'Portal', link: 'https://portal.qday.info' },
+              { text: 'ABEL Bridge', link: 'https://abel-bridge.qday.info' },
+              { text: 'QDay Faucet', link: 'https://fi.qday.info/en/dapps/faucet' },
+              { text: 'Swap', link: 'https://swap.qday.info' },
+              { text: 'ABEL Staking', link: 'https://abel-staking.qday.info' },
+              { text: 'QDay Staking', link: 'https://qday-staking.qday.info'}
+            ]
+          },
           { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
         ],
 

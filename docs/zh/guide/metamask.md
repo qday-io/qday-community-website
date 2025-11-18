@@ -104,17 +104,14 @@ outline: deep
 5. MetaMask 主介面的 Tokens（代幣） 標籤頁可以看到已經顯示了 USD8 代幣的餘額數字。
    ![MetaMask 顯示 USD8 代幣](/qday/metamask/usd8-tokens.png)
 
-<!-- ### 新增 WQDAY、WABEL、cvxQDAY 代幣
+### 新增 WQDAY、WABEL 代幣
 
-### 代幣合約地址清單
+#### 代幣合約地址清單
 
 | 合約名稱 | 地址 | 描述 |
 | --- | --- | --- |
 | USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約 |
 | WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
 | WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
-| cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | Abel質押流動性提供合約 |
-| cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | Abel質押流動性提供合約 |
 
-提示：[按照 PQUSD 的步驟](#新增-pqusd-代幣到-metamask) 將 wQDAY、wABEL 和 CVXQDAY 代幣新增到 MetaMask。
--->
+提示：[按照 USD8 的步驟](#新增-usd8-代幣到-metamask) 將 WQDAY 和 WABEL 代幣新增到 MetaMask。

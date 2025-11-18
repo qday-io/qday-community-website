@@ -76,17 +76,6 @@ Click the MetaMask extension icon in the browser toolbar, then click the copy ic
 
 ## Add QDay ERC20 Tokens to MetaMask
 
-<!-- ### Token Contract Addresses List
-
-| Contract Name | Address | Description |
-| --- | --- | --- |
-| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB  | PQ USD token contract |
-| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | Wrapped QDAY token contract |
-| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | Wrapped ABEL token contract  |
-| cvxQDAY | 0x19334AF431a4CAdbc8B76f9d538Ce82BFCa517C2 | LP OF Abel staking |
-| cvxQDAY | 0x57D841627B6E1593Bcfe37AE2d90389163962AA6 | LP OF Abel staking |
--->
-
 ### Add USD8 Token to MetaMask
 1. Click the MetaMask extension icon in the browser toolbar, then click “Import tokens” in the “Tokens” tab of the main interface;
    ![Import USD8 Token in MetaMask1](/qday/metamask/import-tokens1.png)
@@ -98,7 +87,14 @@ Click the MetaMask extension icon in the browser toolbar, then click the copy ic
 5. The USD8 Token balance will now be displayed in the Tokens tab of the MetaMask main interface.
    ![MetaMask USD8 Token](/qday/metamask/usd8-tokens.png)
 
-<!-- ### Add wQDAY, wABEL, CVXQDAY Token
+### Add wQDAY, wABEL, CVXQDAY Token
 
-Tips: [Follow the steps of PQUSD](#add-pqusd-token-to-metamask) to add wQDAY, wABEL, and CVXQDAY tokens to MetaMask.
--->
+#### Token Contract Addresses List
+
+| Contract Name | Address | Description |
+| --- | --- | --- |
+| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB  | PQ USD token contract |
+| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | Wrapped QDAY token contract |
+| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | Wrapped ABEL token contract  |
+
+Tips: [Follow the steps of USD8](#add-usd8-token-to-metamask) to add WQDAY and WABEL tokens to MetaMask.
