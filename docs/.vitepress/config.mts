@@ -105,8 +105,27 @@ export default defineConfig({
         nav: [
           { text: '首頁', link: '/zh/' },
           { text: '文檔', link: '/zh/guide/' },
-          { text: 'API', link: '/zh/api/' },
-          { text: '問答', link: '/zh/faq/' },
+          { text: '主網',
+            items: [
+              { text: '瀏覽器', link: 'https://explorer.qday.io' },
+              { text: '資產組合', link: 'https://portal.qday.io' },
+              { text: 'ABEL 跨鏈橋', link: 'https://abel-bridge.qday.io' },
+              { text: '兌換', link: 'https://swap.qday.io' },
+              { text: 'ABEL 質押', link: 'https://abel-staking.qday.io' },
+              { text: 'QDay 質押', link: 'https://qday-staking.qday.io' }
+            ]
+          },
+          { text: '測試網',
+            items: [
+              { text: '瀏覽器', link: 'https://explorer.qday.info' },
+              { text: '資產組合', link: 'https://portal.qday.info' },
+              { text: 'ABEL 跨鏈橋', link: 'https://abel-bridge.qday.info' },
+              { text: 'QDay 水龍頭', link: 'https://fi.qday.info/en/dapps/faucet' },
+              { text: '兌換', link: 'https://swap.qday.info' },
+              { text: 'ABEL 質押', link: 'https://abel-staking.qday.info' },
+              { text: 'QDay 質押', link: 'https://qday-staking.qday.info'}
+            ]
+          },
           { text: '詢問 Hako', link: 'https://hako.pqabelian.io/zh/' }
         ],
 
