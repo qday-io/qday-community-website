@@ -87,7 +87,7 @@ Click the MetaMask extension icon in the browser toolbar, then click the copy ic
 5. The USD8 Token balance will now be displayed in the Tokens tab of the MetaMask main interface.
    ![MetaMask USD8 Token](/qday/metamask/usd8-tokens.png)
 
-### Add wQDAY, wABEL, CVXQDAY Token
+### Add wQDAY, wABEL Token
 
 #### Token Contract Addresses List
 
