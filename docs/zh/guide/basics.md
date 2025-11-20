@@ -19,21 +19,32 @@ outline: deep
 | 1 | QDay Chain | 添加網路 |
 | 2 | QDay Explorer  |                   |
 | 3 | QDay Faucet    |                   |
-| 4 | QDay Swap | PQUSD 合約 |
-|   |                | ABEL 合約（包括 WAbel） |
+| 4 | QDay Swap | USD8 合約 |
+|   |                | ABEL 合約（包括 WABEL） |
 | 5 | QDay Staking | 合約 |
 | 6 | Abel Staking | 合約 |
 
 ## 下一步
 
-現在您已經了解了 QDay 測試網生態系統，請選擇您的路徑：
+現在您已經了解了 QDay 生態系統，請選擇您的路徑：
 
-- [**QDay 新手？**](/guide/wallet/metamask) / [**ABEL 新手？**](/guide/wallet/abelian-pro)
-- [**QDay Explorer**](https://explorer.qday.info) / [**Abel Explorer**](https://explorer.abelian.io)
-- [**QDay Portal**](https://portal.qday.info/)
-- [**QDay Finance**](https://fi.qday.info)
-- [**QDay Faucet**](https://faucet.qday.info)
-- [**QDay Staking**](https://qday-staking.qday.info/) / [**Abel Staking**](https://abel-staking.qday.info)
-- [**QDay Swap**](https://qday-swap.qday.info/)
+- [**QDay 新手？**](/zh/guide/wallet/metamask.html) / [**ABEL 新手？**](/zh/guide/wallet/abelian-pro.html)
+
+### QDay 主網
+
+- [**QDay 資產組合**](https://portal.qday.io)
+- [**QDay 跨鏈橋**](https://abel-bridge.qday.io)
+- [**QDay 兌換**](https://swap.qday.io)
+- [**QDay 質押**](https://qday-staking.qday.io) / [**ABEL 質押**](https://abel-staking.qday.io)
+- [**QDay 瀏覽器**](https://explorer.qday.io) / [**ABEL 瀏覽器**](https://explorer.abelian.io)
+
+### QDay 測試網
+
+- [**QDay 資產組合**](https://portal.qday.info)
+- [**QDay 測試網水龍頭**](https://fi.qday.info/tw/dapps/faucet)
+- [**QDay 跨鏈橋**](https://abel-bridge.qday.info)
+- [**QDay 兌換**](https://swap.qday.info)
+- [**QDay 質押**](https://qday-staking.qday.info) / [**ABEL 質押**](https://abel-staking.qday.info)
+- [**QDay 瀏覽器**](https://explorer.qday.info) / [**ABEL 瀏覽器**](https://explorer.abelian.info)
 
 歡迎加入 QDay 社群！ 🚀

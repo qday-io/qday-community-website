@@ -19,21 +19,33 @@ Whether you're a new user, developer, or miner, this guide will help you choose 
 | 1 | QDay Chain | Add network |
 | 2 | QDay Explorer  |                   |
 | 3 | QDay Faucet    |                   |
-| 4 | QDay Swap | PQUSD Contract |
-|   |                | ABEL Contract (including WAbel) |
+| 4 | QDay Swap | USD8 Contract |
+|   |                | ABEL Contract (including WABEL) |
 | 5 | QDay Staking | Contract |
 | 6 | Abel Staking | Contract |
 
 ## Next Steps
 
-Now that you understand the QDay testnet ecosystem, choose your path:
+Now that you understand the QDay ecosystem, choose your path:
 
-- [**New to QDay?**](/guide/wallet/metamask) / [**New to ABEL?**](/guide/wallet/abelian-pro)
-- [**QDay Explorer**](https://explorer.qday.info) / [**Abel Explorer**](https://explorer.abelian.io)
-- [**QDay Portal**](https://portal.qday.info/)
-- [**QDay Finance**](https://fi.qday.info)
-- [**QDay Faucet**](https://faucet.qday.info)
-- [**QDay Staking**](https://qday-staking.qday.info/) / [**Abel Staking**](https://abel-staking.qday.info)
-- [**QDay Swap**](https://qday-swap.qday.info/)
+- [**New to QDay?**](/guide/metamask.html)
+- [**New to ABEL?**](/guide/abelian-pro.html)
+
+### QDay Mainnet
+
+- [**QDay Portal**](https://portal.qday.io)
+- [**QDay Bridge**](https://abel-bridge.qday.io)
+- [**QDay Swap**](https://swap.qday.io)
+- [**QDay Staking**](https://qday-staking.qday.io) / [**ABEL Staking**](https://abel-staking.qday.io)
+- [**QDay Explorer**](https://explorer.qday.io) / [**ABEL Explorer**](https://explorer.abelian.io)
+
+### QDay Testnet
+
+- [**QDay Portal**](https://portal.qday.info)
+- [**QDay Testnet Faucet**](https://fi.qday.info/en/dapps/faucet)
+- [**QDay Bridge**](https://abel-bridge.qday.info)
+- [**QDay Swap**](https://swap.qday.info)
+- [**QDay Staking**](https://qday-staking.qday.info) / [**ABEL Staking**](https://abel-staking.qday.info)
+- [**QDay Explorer**](https://explorer.qday.info) / [**ABEL Explorer**](https://explorer.abelian.info)
 
 Welcome to the QDay community! 🚀
