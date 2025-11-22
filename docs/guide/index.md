@@ -24,7 +24,7 @@ To further test and validate the functionality and performance of QDay, the QDay
 Users can participate in the QDay and experience the following features:
 
 - **QDay Explorer**: Explore quantum-secure blockchain data with QDay Explorer, featuring enhanced privacy protection for viewing block details, transactions, and address activities.
-- **MetaMask**: Configure MetaMask with QDay's quantum-secure RPC settings to manage QRC20 tokens (QDay's enhanced token standard) and execute protected transactions.
+- **MetaMask**: Configure MetaMask with QDay's quantum-secure RPC settings to manage ERC20 tokens (QDay's enhanced token standard) and execute protected transactions.
 - **QDay Faucet**: Acquire QDAY tokens through our quantum-proof faucet system, implementing novel anti-Sybil mechanisms.
 - **QDay Finance**: Access quantum-resistant decentralized exchanges (QDEX) featuring lattice-based trading protocols in QDay's financial ecosystem.
 - **QDay Swap**: Utilize our post-quantum cross-chain bridge for secure asset transfers between QDay and other networks, with quantum-secure staking and yield farming options.

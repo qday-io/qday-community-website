@@ -120,7 +120,7 @@ export default defineConfig({
               { text: '瀏覽器', link: 'https://explorer.qday.info' },
               { text: '資產組合', link: 'https://portal.qday.info' },
               { text: 'ABEL 跨鏈橋', link: 'https://abel-bridge.qday.info' },
-              { text: 'QDay 水龍頭', link: 'https://fi.qday.info/en/dapps/faucet' },
+              { text: 'QDay 水龍頭', link: 'https://fi.qday.info/tw/dapps/faucet' },
               { text: '兌換', link: 'https://swap.qday.info' },
               { text: 'ABEL 質押', link: 'https://abel-staking.qday.info' },
               { text: 'QDay 質押', link: 'https://qday-staking.qday.info'}

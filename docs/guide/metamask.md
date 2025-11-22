@@ -81,7 +81,7 @@ Click the MetaMask extension icon in the browser toolbar, then click the copy ic
    ![Import USD8 Token in MetaMask1](/qday/metamask/import-tokens1.png)
 2. In the “Import tokens” page, first select the QDAY network, then enter the USD8 Token address in the “Token contract address” field: `0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
    ![Import USD8 Token in MetaMask2](/qday/metamask/import-tokens2.png)
-3. Wait a moment for the PQUSD Token information (Token symbol and Token decimal) to load automatically, then click the “Next” button;
+3. Wait a moment for the USD8 Token information (Token symbol and Token decimal) to load automatically, then click the “Next” button;
 4. Display the confirmation import window, and click the “Import” button to complete the import;
    ![Import USD8 Token in MetaMask3](/qday/metamask/import-tokens3.png)
 5. The USD8 Token balance will now be displayed in the Tokens tab of the MetaMask main interface.
@@ -91,10 +91,10 @@ Click the MetaMask extension icon in the browser toolbar, then click the copy ic
 
 #### Token Contract Addresses List
 
-| Contract Name | Address | Description |
-| --- | --- | --- |
-| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB  | PQ USD token contract |
-| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | Wrapped QDAY token contract |
-| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | Wrapped ABEL token contract  |
+| Contract Name | Address                                    | Description                 |
+| ------------- | ------------------------------------------ | --------------------------- |
+| USD8          | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | USD8 token contract         |
+| WQDAY         | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | Wrapped QDAY token contract |
+| WABEL         | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | Wrapped ABEL token contract |
 
 Tips: [Follow the steps of USD8](#add-usd8-token-to-metamask) to add WQDAY and WABEL tokens to MetaMask.

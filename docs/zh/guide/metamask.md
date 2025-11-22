@@ -2,7 +2,7 @@
 outline: deep
 ---
 
-# 1. MetaMask 錢包帳戶用戶指引
+# MetaMask 錢包帳戶用戶指引
 
 ## 下載 MetaMask 擴充程式
 
@@ -108,10 +108,10 @@ outline: deep
 
 #### 代幣合約地址清單
 
-| 合約名稱 | 地址 | 描述 |
-| --- | --- | --- |
-| USD8 | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約 |
-| WQDAY | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
-| WABEL | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
+| 合約名稱 | 地址                                       | 描述             |
+| -------- | ------------------------------------------ | ---------------- |
+| USD8     | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約     |
+| WQDAY    | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
+| WABEL    | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
 
 提示：[按照 USD8 的步驟](#新增-usd8-代幣到-metamask) 將 WQDAY 和 WABEL 代幣新增到 MetaMask。

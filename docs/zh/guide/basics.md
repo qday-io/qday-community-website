@@ -11,18 +11,18 @@ outline: deep
 
 ## 概述
 
-| 編號 | 項目 | 內容 |
-|------|----------------|--------------------|
-| 0 | 準備 | 錢包 |
-|   |                | 帳戶：QDAY, USDT |
-|   |                | 備份私鑰和助記詞 |
-| 1 | QDay Chain | 添加網路 |
-| 2 | QDay Explorer  |                   |
-| 3 | QDay Faucet    |                   |
-| 4 | QDay Swap | USD8 合約 |
-|   |                | ABEL 合約（包括 WABEL） |
-| 5 | QDay Staking | 合約 |
-| 6 | Abel Staking | 合約 |
+| 編號 | 項目          | 內容                    |
+| ---- | ------------- | ----------------------- |
+| 0    | 準備          | 錢包                    |
+|      |               | 帳戶：QDAY, USDT        |
+|      |               | 備份私鑰和助記詞        |
+| 1    | QDay Chain    | 添加網路                |
+| 2    | QDay Explorer |                         |
+| 3    | QDay Faucet   |                         |
+| 4    | QDay Swap     | USD8 合約               |
+|      |               | ABEL 合約（包括 WABEL） |
+| 5    | QDay Staking  | 合約                    |
+| 6    | Abel Staking  | 合約                    |
 
 ## 下一步
 
@@ -32,7 +32,7 @@ outline: deep
 
 ### QDay 主網
 
-- [**QDay 資產組合**](https://portal.qday.io)
+- [**QDay 資產組合**](https://portal.qday.io) `通過資產組合，您可以快速訪問 QDay 生態系統的服務和工具。`
 - [**QDay 跨鏈橋**](https://abel-bridge.qday.io)
 - [**QDay 兌換**](https://swap.qday.io)
 - [**QDay 質押**](https://qday-staking.qday.io) / [**ABEL 質押**](https://abel-staking.qday.io)
