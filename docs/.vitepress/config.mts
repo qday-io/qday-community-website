@@ -67,6 +67,7 @@ export default defineConfig({
                     { text: 'QDay Introduction', link: '/guide/' },
                     { text: 'QDay Basics', link: '/guide/basics' },
                     { text: 'MetaMask Wallet', link: '/guide/metamask' },
+                    { text: 'Abelian Pro', link: '/guide/abelian-pro' }
                   ]
                 },
                 //{ text: 'QDay Testnet User Guide',
@@ -149,12 +150,13 @@ export default defineConfig({
                   ]
                 },
                 {
-                  text: 'QDay 測試網用戶指南',
+                  text: 'QDay 用戶指南',
                   collapsed: false,
                   items: [
                     { text: 'QDay 簡介', link: '/zh/guide/' },
                     { text: 'QDay 基礎知識', link: '/zh/guide/basics' },
-                    { text: 'MetaMask 錢包', link: '/zh/guide/metamask' }
+                    { text: 'MetaMask 錢包', link: '/zh/guide/metamask' },
+                    { text: 'Abelian Pro', link: '/zh/guide/abelian-pro' }
                   ]
                 },
                 //{ text: 'QDay 測試網用戶指南',
