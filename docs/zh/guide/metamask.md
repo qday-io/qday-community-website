@@ -10,6 +10,10 @@ outline: deep
 
 2. 選擇適合你瀏覽器的擴充程式並安裝：
 
+:::tip 提示
+由於 Microsoft Edge 瀏覽器的 Metamask 擴充程式仍然停留在 v12 版本，而 Chrome 和 Firefox 都已經更新到 v13 版本，此用戶指引以 v13 版本為準，Edge 用戶僅作參考。
+:::
+
    - 對於 Chrome 瀏覽器，點擊 “[Install MetaMask for Chrome（為 Chrome 安裝 MetaMask）](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
    ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/chrome-metamask-install.png)<br>
    - 對於 Firefox 瀏覽器，點擊 “[Install MetaMask for Firefox（為 Firefox 安裝 MetaMask）](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
@@ -51,7 +55,11 @@ outline: deep
 ## 新增 QDAY 網路到 MetaMask
 
 ### 自動新增 QDAY 至 MetaMask 網路列表
-(區塊鏈瀏覽器自動新增 QDAY 至 MetaMask 網路功能稍後推出)
+
+區塊鏈瀏覽器自動新增 QDAY 至 MetaMask 網路功能已经推出：
+
+1. 请访问 [QDay 浏览器](https://explorer.qday.io)；
+2. 点击页面右上角的 “Add QDay Mainnet（添加 QDay 主网）” 按钮，确认后即可自动将 QDAY 网络自动添加到 MetaMask。
 
 ### 手動新增 QDAY 到 MetaMask 網路列表
 
@@ -115,3 +123,4 @@ outline: deep
 | WABEL    | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
 
 提示：[按照 USD8 的步驟](#新增-usd8-代幣到-metamask) 將 WQDAY 和 WABEL 代幣新增到 MetaMask。
+
