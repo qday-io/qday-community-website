@@ -13,11 +13,11 @@ hero:
       text: 文檔
       link: /guide/
     - theme: alt
-      text: API 範例
-      link: /api/
+      text: Github
+      link: https://github.com/qday-io
     - theme: alt
       text: 詢問 Hako
-      link: https://hako.pqabelian.io/
+      link: https://hako.pqabelian.io
 
 features:
   - icon: 🛡️
