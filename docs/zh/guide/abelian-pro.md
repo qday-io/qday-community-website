@@ -56,17 +56,17 @@ Abelian Pro 是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動�
 
 首次啟動 Abelian Pro 應用程式時，您將看到歡迎界面。
 
-![Abelian Pro Welcome Screen](/abelian-pro/welcome.png)
+![歡迎畫面](/abelian-pro/welcome.png)
 
 - 連續點擊 "Continue（繼續）" 按鈕，閱讀 Abelian Pro 的特性介紹頁面，然後點擊 "Get Started（開始）" 按鈕，進入語言選擇界面，選擇您的語言後，點擊 "Next（下一步）" 按鈕進入錢包主界面；
-    ![Abelian Pro Language Selection Screen](/abelian-pro/language-selection.png)
+    ![語言選擇](/abelian-pro/language-selection.png)
 
 - 主界面底部導航欄分為以下四個部分：
-    ![Abelian Pro Main Screen](/abelian-pro/main-screen.png)
-    1. **Abelian**：\$ABEL 錢包頁面，可以操作 ABEL 的購買、轉帳操作和查看 ABEL 的錢包類型餘額、交易記錄等資訊；
-    2. **QDay**：\$QDAY 錢包頁面，可以操作 QDAY 的轉帳操作和查看 QDAY、WQDAY、WABEL、USD8 的餘額、交易記錄等資訊，並且支援 USD8 兌換，還包含 ABEL 跨鏈橋、ABEL 質押、QDay 質押、QDay 交換的網頁連結；
-    3. **Discover**：發現頁面，顯示 Abelian 官網的網站集群、市場數據、以及官方社交網路；
-    4. **Settings**：設定頁面，提供錢包的語言、主題、指紋鎖、網路設定，以及關於資訊和應用程式日誌。
+    ![主螢幕](/abelian-pro/main-screen.png)
+    1. **Abelian（ ABEL）**：\$ABEL 錢包頁面，可以操作 ABEL 的購買、轉帳操作和查看 ABEL 的錢包類型餘額、交易記錄等資訊；
+    2. **QDay（ QDAY）**：\$QDAY 錢包頁面，可以操作 QDAY 的轉帳操作和查看 QDAY、WQDAY、WABEL、USD8 的餘額、交易記錄等資訊，並且支援 USD8 兌換，還包含 ABEL 跨鏈橋、ABEL 質押、QDay 質押、QDay 交換的網頁連結；
+    3. **Discover（發現）**：發現頁面，顯示 Abelian 官網的網站集群、市場數據、以及官方社交網路；
+    4. **Settings（設定）**：設定頁面，提供錢包的語言、主題、指紋鎖、網路設定，以及關於資訊和應用程式日誌。
 
 ## 創建 ABEL 錢包帳戶
 
@@ -79,9 +79,12 @@ Abelian Pro 支援 Legacy 和 MLP 兩種不同類型的錢包，每種都有其�
 **創建步驟**：
 
 1. 在 Abelian 錢包主界面點擊 "I don't haove an ABEL account（我沒有 ABEL 帳戶）" 按鈕開始創建 ABEL 錢包；
+   ![創建帳戶](/abelian-pro/create-account-1.png)
 2. 第一次建立錢包時會自動彈出錢包密碼（Passcode）設定畫面，輸入六位數字密碼兩次，如果裝置有指紋或 "Touch ID" 功能，會彈出生物辨識登入（Biometric Login）確認啟用的畫面，點擊 "確認（Confirm）" 按鈕完成安全設定；
-3. 在 Create Account（創建帳戶）界面，設定錢包名稱（Name），點擊 "Create（創建）" 按鈕創建錢包；
-4. 下方的進階（Advanced）選項可以展開，可以選擇 "建立 MLP 偽隱私帳戶（Create an MLP Pseudo-Private account）" 、"建立 MLP 全隱私帳戶（Create an MLP Fully-Private account）" 和 "建立經典帳戶（Create a Legacy account）" 三種類型，預設為偽隱私錢包；
+   ![設定密碼](/abelian-pro/set-passcode.png)
+3. 在 Create Account（創建帳戶）界面，設定 “錢包名稱（Name）”⓵，點擊 "Create（創建）" 按鈕⓷ 創建錢包；
+   ![創建帳戶2](/abelian-pro/create-account-2.png)
+4. 下方的進階（Advanced）選項可以展開⓶，可以選擇 "建立 MLP 偽隱私帳戶（Create an MLP Pseudo-Private account）" 、"建立 MLP 全隱私帳戶（Create an MLP Fully-Private account）" 和 "建立經典帳戶（Create a Legacy account）" 三種類型，預設為偽隱私錢包；
 5. 確認密碼或生物辨識後，點擊 "完成（Done）" 按鈕即可完成錢包建立並進入錢包主畫面。
 
 

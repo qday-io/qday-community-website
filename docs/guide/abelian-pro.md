@@ -79,9 +79,12 @@ Abelian Pro supports two different types of wallets: Legacy and MLP, each with s
 **Creation Steps**:
 
 1. On the Abelian wallet main interface, tap the "I don't have an ABEL account" button to start creating an ABEL wallet;
+   ![Abelian Pro Create Account](/abelian-pro/create-account-1.png)
 2. When creating a wallet for the first time, the Passcode setup screen will automatically appear. Enter a six-digit password twice. If the device has fingerprint or "Touch ID" functionality, a Biometric Login confirmation screen will appear. Tap the "Confirm" button to complete security setup;
-3. On the Create Account interface, set the wallet Name and tap the "Create" button to create the wallet;
-4. The Advanced options below can be expanded to choose between "Create an MLP Pseudo-Private account", "Create an MLP Fully-Private account", and "Create a Legacy account". The default is Pseudo-Private wallet;
+   ![Set Passcode](/abelian-pro/set-passcode.png)
+3. On the Create Account interface, set the wallet "Name"⓵ and tap the "Create" button⓶ to create the wallet;
+   ![Create Account 2](/abelian-pro/create-account-2.png)
+4. The Advanced options below can be expanded⓷ to choose between "Create an MLP Pseudo-Private account", "Create an MLP Fully-Private account", and "Create a Legacy account". The default is Pseudo-Private wallet;
 5. After confirming the password or biometric authentication, tap the "Done" button to complete wallet creation and enter the wallet main screen.
 
 
