@@ -77,9 +77,12 @@ Follow these steps to start staking:
 
 ### Step 3: Stake QDAY
 
-- Enter the amount of WQDAY/QDAY to stake → Select your lock-up period in days → Click **"Convert & Stake"** and confirm the transaction in your wallet.
+- Enter the amount of WQDAY/QDAY to stake → Enter the number of days you want to lock your account → Click **"Convert & Stake"** and confirm the transaction in your wallet.
 
-  Note：When you stake, your QDAY will be automatically converted to WQDAY (the wrapped token) if you have a sufficient balance.
+:::warning Note
+  1. The longest lock-up period cannot exceed 1460 days.
+  2. When you stake, your QDAY will be automatically converted to WQDAY (the wrapped token) if you have a sufficient balance.
+:::
 
   ![](/qday/staking/image5.png)
 

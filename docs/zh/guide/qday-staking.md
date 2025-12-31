@@ -67,19 +67,22 @@ QDAY 質押允許您質押現有的 QDAY 代幣,並每天賺取更多 QDAY 代�
 
 - 前往 <https://portal.qday.io/>
 
-- 點擊 **「QDAY Staking」** 分頁,它將重新導向至 QDAY 質押頁面。
+- 點擊 **「QDAY 質押(QDAY Staking)」** 分頁,它將重新導向至 QDAY 質押頁面。
 
   ![](/qday/staking/image3.png)
 
-- 點擊 **「Connect Wallet」** 並連結您的錢包。
+- 點擊 **「連接錢包(Connect Wallet)」** 並連結您的錢包。
 
   ![](/qday/staking/image4.png)
 
 ### 步驟 3: 質押 QDAY
 
-- 輸入要質押的 WQDAY/QDAY 數量 → 選擇您的鎖定期限(天數)→ 點擊 **「Convert & Stake」** 並在您的錢包中確認交易。
+- 輸入要質押的 WQDAY/QDAY 數量 → 請輸入您要鎖定帳戶的天數 → 點擊 **「轉換並質押(Convert & Stake)」** 並在您的錢包中確認交易。
 
-  注意:當您質押時,如果您有足夠的餘額,您的 QDAY 將自動轉換為 WQDAY(封裝代幣)。
+:::warning 注意
+1. 最長鎖定期限為 1460 天；
+2. 當您質押時,如果您有足夠的餘額,您的 QDAY 將自動轉換為 WQDAY(封裝代幣)。
+:::
 
   ![](/qday/staking/image5.png)
 
