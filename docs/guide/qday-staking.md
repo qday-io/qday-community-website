@@ -50,16 +50,11 @@ Follow these steps to start staking:
 
 ### Step 1: Set up your wallet
 
-- Log in your EVM wallet(e.g., MetaMask) and **"Add custom network"** with QDAY Mainnet information as below:
+- Log in your EVM wallet (e.g., MetaMask) and add the QDay Mainnet as a custom network. For detailed instructions, please refer to [MetaMask Wallet User Guide - Add QDay Network](/guide/metamask#add-qday-network-to-metamask).
 
-  > Network Name: QDay Mainnet
-  > RPC: https://rpc.qday.io
-  > Chain ID: 44001
-  > Symbol: QDAY
-  > Explorer URL: <https://explorer.qday.io>
-
-  ![](/qday/staking/image1.png)
-  ![](/qday/staking/image2.png)
+  ![Add QDay Mainnet to MetaMask](/qday/staking/image1.png)
+  
+  ![QDay Mainnet added successfully](/qday/staking/image2.png)
 
 - Switch your wallet to QDay Mainnet.
 
@@ -67,13 +62,13 @@ Follow these steps to start staking:
 
 - Go to the <https://portal.qday.io/>
 
-- Click the "**QDAY Staking"** tab and it will redirect to QDAY Staking.
+- Click the **"QDAY Staking"** tab and it will redirect to QDAY Staking.
 
-  ![](/qday/staking/image3.png)
+  ![QDAY Staking page navigation](/qday/staking/image3.png)
 
 - Click **"Connect Wallet"** and link your wallet.
 
-  ![](/qday/staking/image4.png)
+  ![Connect wallet interface](/qday/staking/image4.png)
 
 ### Step 3: Stake QDAY
 
@@ -84,17 +79,17 @@ Follow these steps to start staking:
   2. When you stake, your QDAY will be automatically converted to WQDAY (the wrapped token) if you have a sufficient balance.
 :::
 
-  ![](/qday/staking/image5.png)
+  ![Staking interface with amount and lock period input](/qday/staking/image5.png)
 
-- Check your staking status in Your Staking Stats" section
+- Check your staking status in **"Your Staking Stats"** section
 
-  ![](/qday/staking/image6.png)
+  ![Staking statistics display](/qday/staking/image6.png)
 
 ### Step 4: Rewards and Withdraw
 
-**Daily rewards** accumulate automatically → **Claim** your pending rewards → **Withdraw** from your vault balance to your EVM wallet .
+**Daily rewards** accumulate automatically → **Claim** your pending rewards → **Withdraw** from your vault balance to your EVM wallet.
 
-  ![](/qday/staking/image7.png)
+  ![Rewards claim and withdraw interface](/qday/staking/image7.png)
 
 ## 4. Reward Details
 
