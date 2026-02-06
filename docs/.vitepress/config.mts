@@ -106,7 +106,7 @@ export default defineConfig({
       lang: 'zh-TW',
       link: '/zh/',
       title: "QDay 知識社區",
-      description: "Abelian 是一個抗量子計算的區塊鏈生態系統，Layer 1 基於 GPU 的 POW，Layer 2 兼容 EVM。 Abelian 知識社區 - 致力於為 Abelian 區塊鏈集文檔庫、問答、教程和用戶經驗分享為一體的綜合型社區。",
+      description: "QDay 社群是開發者與用戶探索基於 Abelian 區塊鏈的量子安全 Layer2 網路的核心平台，提供 EVM 相容性、完整的技術文件，以及創新的區塊鏈解決方案。",
       keywords: ['QDay', 'Layer2 network', 'quantum resistant', 'quantum safe', 'privacy coin', 'zero knowledge', 'EVM compatible', 'QDay', 'Abelian', 'Abelian Foundation', 'ABEL', 'QDAY'],
       themeConfig: {
         nav: [
