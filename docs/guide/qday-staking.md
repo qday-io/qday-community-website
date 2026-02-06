@@ -16,7 +16,7 @@ Before you begin staking, please ensure you have the following:
 If you don't have a MetaMask wallet yet, please refer to the [MetaMask Wallet User Guide](/guide/metamask).
 :::
 
-## 1. What Is the Purpose of QDAY Staking?
+## What Is the Purpose of QDAY Staking?
 
 QDAY Staking allows you to stake your existing QDAY tokens and earn more QDAY tokens every day---exactly as it sounds: as long as you hold QDAY, you can grow your QDAY holdings through staking.
 
@@ -26,7 +26,7 @@ QDAY Staking allows you to stake your existing QDAY tokens and earn more QDAY to
 - **Secure and Reliable**: Smart contracts execute automatically without trusting third parties
 - **Flexible Options**: Freely choose your lock-up period; longer lock-ups yield higher rewards
 
-## 2. How It Works?
+## How It Works
 
 To participate in the QDAY Staking, follow these two simple steps:
 
@@ -44,7 +44,7 @@ To participate in the QDAY Staking, follow these two simple steps:
 - Longer lock-up periods result in higher share allocations
 - Rewards accumulate daily and can be claimed and withdrawn to your wallet anytime
 
-## 3. Tutorial
+## Tutorial
 
 Follow these steps to start staking:
 
@@ -91,7 +91,7 @@ Follow these steps to start staking:
 
   ![Rewards claim and withdraw interface](/qday/staking/image7.png)
 
-## 4. Reward Details
+## Reward Details
 
 **A. Reward Pool**
 50% of the total QDAY supply (approximately 11.259 billion tokens) is allocated for staking rewards.
@@ -113,7 +113,7 @@ Their Share = 200 × 730 = 146,000
 
 **Stake more tokens or choose a longer lock-up period to increase your daily rewards.**
 
-## 5. Frequently Asked Questions (FAQ)
+## Frequently Asked Questions (FAQ)
 
 ### Q1: Can an Abelian network be added to MetaMask?
 
