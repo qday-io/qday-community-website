@@ -4,7 +4,7 @@ outline: deep
 
 # ABEL 跨鏈橋用戶指引
 
-ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abelian 區塊鏈與 QDay 網路的官方跨鏈工具，讓您可以將 Abelian 網路上的 ABEL 代幣橋接並鑄造為 QDay 網路上的 WABEL（Wrapped ABEL）代幣，進一步參與 QDay DeFi 生態（質押、兌換等）。
+ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abelian 區塊鏈與 QDay 網路的官方跨鏈工具，讓您可以將 Abelian 網路上的 ABEL 代幣橋接並鑄造為 QDay 網路上的 wABEL（Wrapped ABEL）代幣，進一步參與 QDay DeFi 生態（質押、兌換等）。
 
 :::tip 前置要求
 開始之前，請確認您已備妥：
@@ -45,7 +45,7 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 
 :::tip 提示
 1. **從** 區塊：網路已預設為 **Abelian**，代幣為 **ABEL**；
-2. **到** 區塊：網路已預設為 **QDay**，代幣為 **WABEL**。
+2. **到** 區塊：網路已預設為 **QDay**，代幣為 **wABEL**。
   - **接收者** 欄位會自動填入目前連接的 MetaMask 錢包地址。
 3. **備註（可選）**：可填寫備忘文字，不影響交易。
 4. 請仔細核對 **Abelian 錢包地址**，輸入錯誤將導致轉帳失敗或資產遺失。
@@ -67,7 +67,7 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 
 ## 步驟 3：等待鑄造確認
 
-### 3.1 等待 3 個區塊確認（鑄造 WABEL）
+### 3.1 等待 3 個區塊確認（鑄造 wABEL）
 
 點擊「我已完成轉帳」後，系統進入 **確認中** 階段，頁面顯示 **「處理交易中」** 及圓形進度條：
 
@@ -81,23 +81,23 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 若需停止監控，可點擊頁面底部的 **「停止監控」** 按鈕。
 :::
 
-### 3.2 跨鏈成功，完成 WABEL 鑄造
+### 3.2 跨鏈成功，完成 wABEL 鑄造
 
 三個區塊確認完成後，頁面會顯示 **「跨鏈成功！」** 並呈現本次跨鏈摘要：
 
 | 欄位         | 說明                                       |
 | ------------ | ------------------------------------------ |
-| **您收到**   | 本次鑄造的 WABEL 數量（例如：`+10 WABEL`） |
+| **您收到**   | 本次鑄造的 wABEL 數量（例如：`+10 wABEL`） |
 | **交易哈希** | 可點擊連結至 QDay 區塊鏈瀏覽器查看詳情     |
 | **從**       | 您的 Abelian 錢包地址（縮寫）              |
 | **到**       | 您的 MetaMask 錢包地址（縮寫）             |
-| **之前餘額** | 跨鏈前的 WABEL 餘額                        |
-| **新餘額**   | 跨鏈後的 WABEL 餘額                        |
+| **之前餘額** | 跨鏈前的 wABEL 餘額                        |
+| **新餘額**   | 跨鏈後的 wABEL 餘額                        |
 
-![跨鏈成功頁面，顯示收到 WABEL 與交易摘要](/qday/bridge/success-zh.png)
+![跨鏈成功頁面，顯示收到 wABEL 與交易摘要](/qday/bridge/success-zh.png)
 
 完成後，您可以：
-- 點擊 **「立即質押 WABEL」** 前往 [ABEL 質押](https://abel-staking.qday.io/) 頁面，立即開始賺取每日 QDAY 獎勵。
+- 點擊 **「立即質押 wABEL」** 前往 [ABEL 質押](https://abel-staking.qday.io/) 頁面，立即開始賺取每日 QDAY 獎勵。
 - 點擊 **「開始新跨鏈」** 發起下一筆跨鏈交易。
 
 ### 3.3 查看歷史跨鏈交易記錄
@@ -114,7 +114,7 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 **Q：為什麼需要 3 個確認？**
 Abelian 網路需要 3 個區塊高度確認以確保交易的安全性與不可逆性，這是跨鏈橋的標準安全機制。
 
-**Q：如果超過 30 分鐘仍未收到 WABEL？**
+**Q：如果超過 30 分鐘仍未收到 wABEL？**
 1. 至 Abelian 區塊鏈瀏覽器確認交易已成功上鏈。
 2. 確認您貼入的交易哈希正確無誤，並檢查備註資訊是否完整。
 3. 在跨鏈橋的「最近交易」欄查詢跨鏈狀態。

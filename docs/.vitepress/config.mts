@@ -72,19 +72,7 @@ export default defineConfig({
                     { text: 'QDay Staking', link: '/guide/qday-staking' },
                     { text: 'ABEL Staking', link: '/guide/abel-staking' }
                   ]
-                },
-                //{ text: 'QDay Testnet User Guide',
-                //collapsed: false,
-                //items: [
-                //{ text: 'MetaMask Wallet', link: '/guide/qday-testnet/metamask' },
-                //{ text: 'QDay Explorer', link: '/guide/qday-testnet/explorer' },
-                //{ text: 'QDay Faucet', link: '/guide/qday-testnet/qday-faucet' },
-                //{ text: 'QDay Staking', link: '/guide/qday-testnet/qday-staking' },
-                //{ text: 'ABEL Faucet', link: '/guide/qday-testnet/abel-faucet' },
-                //{ text: 'ABEL Staking', link: '/guide/qday-testnet/abel-staking' },
-                //{ text: 'QDay Swap', link: '/guide/qday-testnet/swap' }
-                //]
-                //}
+                }
               ]
             }
           ]
@@ -164,19 +152,7 @@ export default defineConfig({
                     { text: 'QDay 質押', link: '/zh/guide/qday-staking' },
                     { text: 'ABEL 質押', link: '/zh/guide/abel-staking' }
                   ]
-                },
-                //{ text: 'QDay 測試網用戶指南',
-                //collapsed: false,
-                //items: [
-                //{ text: 'MetaMask 錢包', link: '/zh/guide/qday-testnet/metamask' },
-                //{ text: 'QDay 瀏覽器', link: '/zh/guide/qday-testnet/explorer' },
-                //{ text: 'QDay 水龍頭', link: '/zh/guide/qday-testnet/qday-faucet' },
-                //{ text: 'QDay 質押', link: '/zh/guide/qday-testnet/qday-staking' },
-                //{ text: 'ABEL 水龍頭', link: '/zh/guide/qday-testnet/abel-faucet' },
-                //{ text: 'ABEL 質押', link: '/zh/guide/qday-testnet/abel-staking' },
-                //{ text: 'QDay Swap', link: '/zh/guide/qday-testnet/swap' }
-                //]
-                //}
+                }
               ]
             }
           ]

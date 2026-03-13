@@ -4,7 +4,7 @@ outline: deep
 
 # ABEL Bridge User Guide
 
-ABEL Bridge ([abel-bridge.qday.io](https://abel-bridge.qday.io)) is the official cross-chain tool connecting the Abelian blockchain and the QDay network. It allows you to bridge your ABEL tokens from the Abelian network and mint them as WABEL (Wrapped ABEL) tokens on the QDay network, enabling participation in the QDay DeFi ecosystem (staking, swapping, etc.).
+ABEL Bridge ([abel-bridge.qday.io](https://abel-bridge.qday.io)) is the official cross-chain tool connecting the Abelian blockchain and the QDay network. It allows you to bridge your ABEL tokens from the Abelian network and mint them as wABEL (Wrapped ABEL) tokens on the QDay network, enabling participation in the QDay DeFi ecosystem (staking, swapping, etc.).
 
 :::tip Prerequisites
 Before getting started, make sure you have:
@@ -45,7 +45,7 @@ After connecting your wallet, the page moves to the input stage automatically:
 
 :::tip Notes
 1. **From** section: Network is pre-set to **Abelian**, token is **ABEL**.
-2. **To** section: Network is pre-set to **QDay**, token is **WABEL**.
+2. **To** section: Network is pre-set to **QDay**, token is **wABEL**.
    - The **Recipient** field is automatically filled with your connected MetaMask address.
 3. **Memo (optional)**: You may add a personal note — it does not affect the transaction.
 4. Double-check your **Abelian wallet address** carefully — an incorrect address may result in failed transfers or permanent asset loss.
@@ -67,7 +67,7 @@ After connecting your wallet, the page moves to the input stage automatically:
 
 ## Step 3: Wait for Minting Confirmation
 
-### 3.1 Wait for 3 Block Confirmations (Minting WABEL)
+### 3.1 Wait for 3 Block Confirmations (Minting wABEL)
 
 After clicking "I Have Completed the Transfer", the system enters the **Confirming** stage. The page shows **"Processing Transaction"** with a circular progress indicator:
 
@@ -81,23 +81,23 @@ Just entered the confirmation waiting stage, and the page shows "**Transaction n
 If you need to stop monitoring, click the **"Stop Monitoring"** button at the bottom of the page.
 :::
 
-### 3.2 Bridge Complete — WABEL Minted
+### 3.2 Bridge Complete — wABEL Minted
 
 Once all 3 block confirmations are complete, the page displays **"Bridge Successful!"** along with a transaction summary:
 
 | Field                | Description                                                    |
 | -------------------- | -------------------------------------------------------------- |
-| **You Received**     | The amount of WABEL minted (e.g. `+10 WABEL`)                  |
+| **You Received**     | The amount of wABEL minted (e.g. `+10 wABEL`)                  |
 | **Transaction Hash** | Clickable link to view details on the QDay blockchain explorer |
 | **From**             | Your Abelian wallet address (abbreviated)                      |
 | **To**               | Your MetaMask wallet address (abbreviated)                     |
-| **Previous Balance** | Your WABEL balance before bridging                             |
-| **New Balance**      | Your WABEL balance after bridging                              |
+| **Previous Balance** | Your wABEL balance before bridging                             |
+| **New Balance**      | Your wABEL balance after bridging                              |
 
-![Bridge successful — WABEL received with transaction summary](/qday/bridge/success.png)
+![Bridge successful — wABEL received with transaction summary](/qday/bridge/success.png)
 
 After completion, you can:
-- Click **"Stake WABEL Now"** to go to the [ABEL Staking](https://abel-staking.qday.io/) page and start earning daily QDAY rewards.
+- Click **"Stake wABEL Now"** to go to the [ABEL Staking](https://abel-staking.qday.io/) page and start earning daily QDAY rewards.
 - Click **"Start New Bridge"** to initiate another bridge transaction.
 
 ### 3.3 View Cross-Chain Transaction History
@@ -115,7 +115,7 @@ The entire process typically takes **10–15 minutes**: Abelian network confirma
 **Q: Why are 3 confirmations required?**
 The Abelian network requires 3 block confirmations to ensure transaction security and irreversibility. This is a standard security mechanism for the bridge.
 
-**Q: What if I still haven't received WABEL after 30 minutes?**
+**Q: What if I still haven't received wABEL after 30 minutes?**
 1. Check the Abelian blockchain explorer to confirm the transaction was successfully submitted.
 2. Verify that the transaction hash you pasted is correct and that the memo information is complete.
 3. Check the bridging status in the bridge's "Recent Transactions" panel.
