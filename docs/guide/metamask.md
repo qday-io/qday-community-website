@@ -15,15 +15,15 @@ Since the MetaMask extension for Microsoft Edge browser is still on v12, while C
 :::
 
    - For Chrome browser, click "[Install MetaMask for Chrome](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)".
-   ![Install MetaMask Extension for Chrome](/qday-testnet/metamask/chrome-metamask-install-en.png)<br>
+   ![Install MetaMask Extension for Chrome](/qday/metamask/chrome-metamask-install-en.png)<br>
    - For Firefox browser, click "[Install MetaMask for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)".
-   ![Install MetaMask Extension for Firefox](/qday-testnet/metamask/firefox-metamask-install-en.png)<br>
+   ![Install MetaMask Extension for Firefox](/qday/metamask/firefox-metamask-install-en.png)<br>
    - For Microsoft Edge browser, click "[Install MetaMask for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)".
-   ![Install MetaMask Extension for Microsoft Edge](/qday-testnet/metamask/edge-metamask-install-en.png)<br>
+   ![Install MetaMask Extension for Microsoft Edge](/qday/metamask/edge-metamask-install-en.png)<br>
 1. After clicking to add the extension, a MetaMask installation page will pop up. Click "Add Extension" or "Install".
-   ![MetaMask Installation Page](/qday-testnet/metamask/add-to-edge-en.png)
+   ![MetaMask Installation Page](/qday/metamask/add-to-edge-en.png)
 2. After installation is complete, a MetaMask setup page will open, or click the extension icon in the upper right corner of the browser and select the MetaMask icon from the dropdown menu to begin setup.
-   ![MetaMask Extension Icon Location](/qday-testnet/metamask/metamask-display-icon-en.png)
+   ![MetaMask Extension Icon Location](/qday/metamask/metamask-display-icon-en.png)
    (You can click "Show in toolbar" to display the MetaMask icon directly in the toolbar)
 
 ## Create MetaMask Wallet Account

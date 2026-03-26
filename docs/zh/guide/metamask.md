@@ -15,15 +15,15 @@ outline: deep
 :::
 
    - 對於 Chrome 瀏覽器，點擊 “[Install MetaMask for Chrome（為 Chrome 安裝 MetaMask）](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
-   ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/chrome-metamask-install.png)<br>
+   ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/chrome-metamask-install.png)<br>
    - 對於 Firefox 瀏覽器，點擊 “[Install MetaMask for Firefox（為 Firefox 安裝 MetaMask）](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
-   ![Firefox 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/firefox-metamask-install.png)<br>
+   ![Firefox 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/firefox-metamask-install.png)<br>
    - 對於 Microsoft Edge 瀏覽器，點擊 “[Install MetaMask for Microsoft Edge（為 Microsoft Edge 安裝 MetaMask）](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
-   ![Microsoft Edge 瀏覽器安裝 MetaMask 擴充程式](/qday-testnet/metamask/edge-metamask-install.png)<br>
+   ![Microsoft Edge 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/edge-metamask-install.png)<br>
 3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension（擴充程式）” 或 “Install（安裝）”。
-   ![MetaMask 安裝頁面](/qday-testnet/metamask/add-to-edge.png)
+   ![MetaMask 安裝頁面](/qday/metamask/add-to-edge.png)
 4. 安裝完成後，會開啟一個 MetaMask 設定頁面，或者點擊瀏覽器右上角的擴充圖標，在下拉選單中選擇 MetaMask 圖標，開始設定。
-   ![MetaMask 擴充程式圖標位置](/qday-testnet/metamask/metamask-display-icon.png)
+   ![MetaMask 擴充程式圖標位置](/qday/metamask/metamask-display-icon.png)
    （可以通過點擊 “在工具欄中顯示” 將 MetaMask 圖標直接顯示到工具欄中）
 
 ## 建立 MetaMask 錢包帳戶
