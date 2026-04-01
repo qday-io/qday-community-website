@@ -9,7 +9,7 @@ outline: deep
 在開始質押之前,請確保您已經準備好以下內容:
 
 - 一個支援 EVM 的錢包(推薦使用 MetaMask)
-- Abelian Pro 錢包中有 ABEL 代幣
+- Abelian 行動錢包中有 ABEL 代幣
 - 少量 QDAY 用於支付 QDay 網路上的交易手續費
 
 :::tip 提示
@@ -72,9 +72,9 @@ ABEL 質押允許您質押 ABEL 代幣,並每天賺取 QDAY 代幣。這是 QDay
 
   ![產生的跨鏈轉帳 QR Code](/qday/abel-staking/image5.png)
 
-- 使用您的 Abelian Pro 錢包掃描 QR Code。
+- 使用您的 Abelian 行動錢包掃描 QR Code。
 
-  ![使用 Abelian Pro 錢包掃描 QR Code](/qday/abel-staking/image6.png)
+  ![使用 Abelian 行動錢包掃描 QR Code](/qday/abel-staking/image6.png)
 
 - 驗證收到的 WABEL 數量。
 

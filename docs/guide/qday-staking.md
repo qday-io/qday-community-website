@@ -122,7 +122,7 @@ Their Share = 200 × 730 = 146,000
 Abelian is an independent post-quantum blockchain network that uses a different technical architecture from EVM. MetaMask is designed specifically for Ethereum Virtual Machine (EVM) compatible chains and therefore cannot support the Abelian network.
 
 :::warning Note
-If you need to use the Abelian network, please use the [Abelian Pro mobile wallet application](/guide/abelian-pro).
+If you need to use the Abelian network, please use the [Abelian mobile wallet application](/guide/abelian-mobile-wallet).
 :::
 
 ### Q2: Can a QDAY network be added to MetaMask?

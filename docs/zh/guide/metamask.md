@@ -84,14 +84,14 @@ outline: deep
 ## 匯入 QDAY 钱包
 
 :::tip 提示
-此步驟需要先從 Abelian Pro 行動錢包應用程式的 QDAY 錢包帳戶詳情頁面備份私鑰，然後按照下面的步驟將 QDAY 錢包帳戶匯入到 MetaMask。
+此步驟需要先從 Abelian 行動錢包應用程式的 QDAY 錢包帳戶詳情頁面備份私鑰，然後按照下面的步驟將 QDAY 錢包帳戶匯入到 MetaMask。
 :::
 
 1. 點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部左側的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet（新增錢包）” 再建立一個新帳戶;
    ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
-2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 匯入來自 Abelian Pro 的 QDAY 錢包帳戶；
+2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 匯入來自 Abelian 行動錢包的 QDAY 錢包帳戶；
    ![匯入 QDAY 錢包帳戶](/qday/metamask/import-qday-account.png)
-3. 在 “Add wallet（新增錢包）” 頁面，选择 “私鑰” 并輸入從 Abelian Pro 移動錢包備份的私鑰字符串，點擊 “匯入” 按鈕完成 QDAY 錢包匯入；
+3. 在 “Add wallet（新增錢包）” 頁面，选择 “私鑰” 并輸入從 Abelian 行動錢包備份的私鑰字符串，點擊 “匯入” 按鈕完成 QDAY 錢包匯入；
    ![輸入 QDAY 錢包私鑰](/qday/metamask/input-qday-privatekey.png)
 4. 在帳戶列表界面會新增一個名為 “Imported Account 1” 的錢包帳戶，這裡可以點擊右側的三點菜單圖標，在彈出的菜單中選擇 “Rename（重命名）”，在彈出的 “帳戶名稱” 框中輸入新的錢包名稱，完成後點擊 “確認” 按鈕完成重命名；
    ![重命名 MetaMask 帳戶](/qday/metamask/rename-metamask-account.png)

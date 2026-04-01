@@ -9,7 +9,7 @@ ABEL Bridge ([abel-bridge.qday.io](https://abel-bridge.qday.io)) is the official
 :::tip Prerequisites
 Before getting started, make sure you have:
 - Installed and configured [MetaMask Wallet](/guide/metamask#download-the-metamask-extension)
-- Installed the **Abelian Pro** mobile wallet (iOS / Android) with sufficient ABEL tokens
+- Installed the **Abelian** mobile wallet (iOS / Android) with sufficient ABEL tokens
 :::
 
 ---
@@ -51,11 +51,11 @@ After connecting your wallet, the page moves to the input stage automatically:
 4. Double-check your **Abelian wallet address** carefully — an incorrect address may result in failed transfers or permanent asset loss.
 :::
 
-### 2.2 Scan QR Code with Abelian Pro
+### 2.2 Scan QR Code with Abelian mobile App
 
 1. The page enters the **Scan QR Code** stage and displays step-by-step instructions along with a QR Code.
-2. Use the **Abelian Pro** mobile wallet's scan function to scan the QR Code ① on the page. Confirm the amount and address, then complete the transfer.
-3. After the transfer succeeds, copy the **Transaction Hash (TXID)** from Abelian Pro, paste it into the "Transaction Hash" field ② at the bottom of the page, then click **"I've Completed Transfer"** ③.
+2. Use the **Abelian** mobile wallet's scan function to scan the QR Code ① on the page. Confirm the amount and address, then complete the transfer.
+3. After the transfer succeeds, copy the **Transaction Hash (TXID)** from Abelian mobile App, paste it into the "Transaction Hash" field ② at the bottom of the page, then click **"I've Completed Transfer"** ③.
    ![Scan QR Code to complete the transfer](/qday/bridge/scan-qrcode.png)
 
 :::warning Important

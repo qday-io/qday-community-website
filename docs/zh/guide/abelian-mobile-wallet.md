@@ -2,13 +2,13 @@
 outline: deep
 ---
 
-# Abelian Pro 移動錢包用戶指引
+# Abelian 行動錢包用戶指引
 
-## Abelian Pro 介紹
+## Abelian 行動錢包介紹
 
-Abelian Pro 是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動錢包應用程式，支援 iOS 和 Android 平台。
+Abelian 行動錢包是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動錢包應用程式，支援 iOS 和 Android 平台。
 
-作為後量子時代的加密貨幣錢包，Abelian Pro 具有以下核心特性：
+作為後量子時代的加密貨幣錢包，Abelian 行動錢包具有以下核心特性：
 
 - **量子安全**：基於抗量子密碼學算法，保護您的數位資產免受未來量子計算威脅；
 - **多層隱私（MLP）**：支援偽隱私（Pseudo-Private）和全隱私（Fully-Private）兩種地址類型，讓您根據需求選擇隱私級別；
@@ -22,14 +22,14 @@ Abelian Pro 是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動�
 - **QDAY** 是 Abelian Layer 2 網路的代幣，相容以太坊虛擬機（EVM），**可以匯出私鑰並匯入到 MetaMask**。
 :::
 
-## 下載 Abelian Pro 應用程式
+## 下載 Abelian 行動錢包應用程式
 
 ### iOS 平台
 
 1. 在 iPhone 或 iPad 上開啟 App Store
-2. 搜尋 "Abelian Pro" 或直接前往 [Abelian Pro on App Store](https://apps.apple.com/us/app/abelian-pro/id6475756639)
+2. 搜尋 "Abelian" 或直接前往 [Abelian 行動錢包 App Store](https://apps.apple.com/us/app/abelian-pro/id6475756639)
 3. 點擊 "獲取" 按鈕下載並安裝應用程式
-4. 安裝完成後，在主屏幕上點擊 Abelian Pro 圖標啟動應用
+4. 安裝完成後，在主屏幕上點擊 Abelian 圖標啟動應用
 
 **系統要求**：iOS 13.0 或更高版本
 
@@ -38,31 +38,31 @@ Abelian Pro 是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動�
 方法一：Google Play Store
 
 1. 在 Android 裝置上開啟 Google Play Store；
-2. 搜尋 "Abelian Pro" 或直接前往 [Abelian Pro on Google Play](https://play.google.com/store/apps/details?id=info.abelian.walletpro)；
+2. 搜尋 "Abelian" 或直接前往 [Abelian 行動錢包 Google Play](https://play.google.com/store/apps/details?id=info.abelian.walletpro)；
 3. 點擊 "安裝" 按鈕下載並安裝應用程式；
-4. 安裝完成後，在應用列表中點擊 Abelian Pro 圖標啟動應用。
+4. 安裝完成後，在應用列表中點擊 Abelian 圖標啟動應用。
 
 方法二：直接下載 Apk 檔案
 
-1. 前往 [Abelian 社群網站下載頁面](https://community.pqabelian.io/zh/downloads/latest.html#abelian-pro-移動應用) 下載 Abelian Pro 的 Apk 檔案；
+1. 前往 [Abelian 社群網站下載頁面](https://community.pqabelian.io/zh/downloads/latest.html#abelian-移動應用) 下載 Abelian 行動錢包 的 Apk 檔案；
 2. 在 Android 裝置上開啟檔案管理器；
 3. 找到下載的 Apk 檔案；
 4. 點擊 Apk 檔案開始安裝；
-5. 安裝完成後，在應用列表中點擊 Abelian Pro 圖標啟動應用。
+5. 安裝完成後，在應用列表中點擊 Abelian 圖標啟動應用。
 
 **系統要求**：Android 6.0 或更高版本
 
 ## 初次使用引導
 
-首次啟動 Abelian Pro 應用程式時，您將看到歡迎界面。
+首次啟動 Abelian 行動錢包應用程式時，您將看到歡迎界面。
 
-![歡迎畫面](/abelian-pro/welcome.png)
+![歡迎畫面](/abelian/welcome.png)
 
-- 連續點擊 "Continue（繼續）" 按鈕，閱讀 Abelian Pro 的特性介紹頁面，然後點擊 "Get Started（開始）" 按鈕，進入語言選擇界面，選擇您的語言後，點擊 "Next（下一步）" 按鈕進入錢包主界面；
-    ![語言選擇](/abelian-pro/language-selection.png)
+- 連續點擊 "Continue（繼續）" 按鈕，閱讀 Abelian 行動錢包的特性介紹頁面，然後點擊 "Get Started（開始）" 按鈕，進入語言選擇界面，選擇您的語言後，點擊 "Next（下一步）" 按鈕進入錢包主界面；
+    ![語言選擇](/abelian/language-selection.png)
 
 - 主界面底部導航欄分為以下四個部分：
-    ![主螢幕](/abelian-pro/main-screen.png)
+    ![主螢幕](/abelian/main-screen.png)
     1. **Abelian（ ABEL）**：\$ABEL 錢包頁面，可以操作 ABEL 的購買、轉帳操作和查看 ABEL 的錢包類型餘額、交易記錄等資訊；
     2. **QDay（ QDAY）**：\$QDAY 錢包頁面，可以操作 QDAY 的轉帳操作和查看 QDAY、WQDAY、WABEL、USD8 的餘額、交易記錄等資訊，並且支援 USD8 兌換，還包含 ABEL 跨鏈橋、ABEL 質押、QDay 質押、QDay 交換的網頁連結；
     3. **Discover（發現）**：發現頁面，顯示 Abelian 官網的網站集群、市場數據、以及官方社交網路；
@@ -70,7 +70,7 @@ Abelian Pro 是為 Abelian 區塊鏈及其 Layer 2 網路 QDay 設計的行動�
 
 ## 創建 ABEL 錢包帳戶
 
-Abelian Pro 支援 Legacy 和 MLP 兩種不同類型的錢包，每種都有其特定的用途和優勢。
+Abelian 行動錢包支援 Legacy 和 MLP 兩種不同類型的錢包，每種都有其特定的用途和優勢。
 
 - **創建偽隱私錢包**：偽隱私（Pseudo-Private）錢包提供了隱私性和性能之間的平衡，適合日常交易使用，可轉帳金額上限最高。
 - **創建全隱私錢包**：全隱私（Fully-Private）錢包提供最高級別的隱私保護，完全隱藏交易資訊，轉帳金額上限高於 Legacy 錢包。
@@ -79,18 +79,18 @@ Abelian Pro 支援 Legacy 和 MLP 兩種不同類型的錢包，每種都有其�
 **創建步驟**：
 
 1. 在 Abelian 錢包主界面點擊 "I don't haove an ABEL account（我沒有 ABEL 帳戶）" 按鈕開始創建 ABEL 錢包；
-   ![創建帳戶](/abelian-pro/create-account-1.png)
+   ![創建帳戶](/abelian/create-account-1.png)
 2. 第一次建立錢包時會自動彈出錢包密碼（Passcode）設定畫面，輸入六位數字密碼兩次，如果裝置有指紋或 "Touch ID" 功能，會彈出生物辨識登入（Biometric Login）確認啟用的畫面，點擊 "確認（Confirm）" 按鈕完成安全設定；
-   ![設定密碼](/abelian-pro/set-passcode.png)
+   ![設定密碼](/abelian/set-passcode.png)
 3. 在 Create Account（創建帳戶）界面，設定 “錢包名稱（Name）”⓵，點擊 "Create（創建）" 按鈕⓷ 創建錢包；
-   ![創建帳戶2](/abelian-pro/create-account-2.png)
+   ![創建帳戶2](/abelian/create-account-2.png)
 4. 下方的進階（Advanced）選項可以展開⓶，可以選擇 "建立 MLP 偽隱私帳戶（Create an MLP Pseudo-Private account）" 、"建立 MLP 全隱私帳戶（Create an MLP Fully-Private account）" 和 "建立經典帳戶（Create a Legacy account）" 三種類型，預設為偽隱私錢包；
 5. 確認密碼或生物辨識後，點擊 "完成（Done）" 按鈕即可完成錢包建立並進入錢包主畫面。
 
 
 ## 創建 QDAY 錢包帳戶
 
-QDay 錢包帳戶使用 EVM 相容的私鑰格式，在 Abelian Pro 中無需設定 QDay 網路，只需與已存在的 ABEL 錢包關聯即可。
+QDay 錢包帳戶使用 EVM 相容的私鑰格式，在 Abelian 行動錢包中無需設定 QDay 網路，只需與已存在的 ABEL 錢包關聯即可。
 
 :::tip 注意
 如果您的 ABEL 錢包是經典錢包，將無法進行 QDay 錢包的創建，需要升級到 MLP 錢包。
@@ -173,11 +173,11 @@ QDay 私鑰格式：`0x` 開頭的 64 位十六進制字符串，例如：
 
 ## 導入 ABEL 錢包
 
-如果您已有 ABEL 錢包的助記詞或私鑰，可以將其導入到 Abelian Pro。
+如果您已有 ABEL 錢包的助記詞或私鑰，可以將其導入到 Abelian 行動錢包。
 
 **通過助記詞或私鑰導入**：
 
-1. 在錢包主界面，選擇 Abelian 標籤页
+1. 在錢包主界面，選擇 Abelian 標籤頁
 2. 點選 "匯入既有帳戶（Import an existing account）" 按鈕
 3. 當已有錢包時，如需建立新錢包，同樣在 "選擇帳戶（Select Account）" 選單中底部選擇 "新增帳戶（Add a new account）"
 4. 在 "匯入帳戶（Import Account）" 頁面，填寫錢包的 "名稱（Name）" 和 "助記詞或私鑰（Mnemonic Phrase or Private Key）"
@@ -206,8 +206,8 @@ QDay 私鑰格式：`0x` 開頭的 64 位十六進制字符串，例如：
 3. 在 "Send ABEL（發送 ABEL）" 選擇選單，可以選擇：
    - "New address（新位址）"：輸入接收者的 ABEL 位址
    - "ABEL Bridge（ABEL 橋）"：透過掃描 ABEL Bridge 網頁中的 QR 碼，將自動填入 ABEL 地址，用於兌換質押用 WABEL 代幣
-   - 「Your Accounts（我的帳戶）」：選擇目前 Abelian Pro 中已有的 ABEL 錢包帳戶
-   - “Contacts（聯絡人）”：選擇目前 Abelian Pro 中已儲存的聯絡人 ABEL 位址
+   - 「Your Accounts（我的帳戶）」：選擇目前 Abelian 行動錢包中已有的 ABEL 錢包帳戶
+   - “Contacts（聯絡人）”：選擇目前 Abelian 行動錢包中已儲存的聯絡人 ABEL 位址
 4. 這裡以 "新地址（New address）" 為例，進入 "發送 ABEL（Send ABEL）" 頁面，透過下列兩種方法輸入 "接收者地址（Recipient's address）"：
    - 點擊 "掃描 QR 碼（Scan QR）" 按鈕，透過掃描其他裝置上的 ABEL 地址 QR 碼，自動填入 ABEL 地址
    - 點擊 "貼上（Paste）" 按鈕，從剪貼板貼上 ABEL 地址
@@ -269,7 +269,7 @@ QDay 私鑰格式：`0x` 開頭的 64 位十六進制字符串，例如：
 
 ## 查看錢包資訊和同步狀態
 
-Abelian Pro 提供詳細的錢包帳戶資訊詳情和同步狀態顯示。
+Abelian 行動錢包提供詳細的錢包帳戶資訊詳情和同步狀態顯示。
 
 **ABEL 錢包帳戶詳情**：
 
@@ -301,7 +301,7 @@ Abelian Pro 提供詳細的錢包帳戶資訊詳情和同步狀態顯示。
 
 ## 購買 ABEL
 
- Abelian Pro 提供了購買 ABEL 的功能，可以使用 USDT 和 USDC 進行購買。
+ Abelian 行動錢包提供了購買 ABEL 的功能，可以使用 USDT 和 USDC 進行購買。
 
 **購買步驟**：
 
@@ -317,7 +317,7 @@ Abelian Pro 提供詳細的錢包帳戶資訊詳情和同步狀態顯示。
 
 ## 轉換 USD8
 
- Abelian Pro 提供了轉換 USD8 穩定幣的功能，可以使用 USDT 和 USDC 進行轉換。
+ Abelian 行動錢包提供了轉換 USD8 穩定幣的功能，可以使用 USDT 和 USDC 進行轉換。
 
 **轉換步驟**：
 

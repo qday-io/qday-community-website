@@ -2,13 +2,13 @@
 outline: deep
 ---
 
-# Abelian Pro Mobile Wallet User Guide
+# Abelian Mobile Wallet User Guide
 
-## Introduction to Abelian Pro
+## Introduction to Abelian Mobile Wallet
 
-Abelian Pro is a mobile wallet application designed for the Abelian blockchain and its Layer 2 network QDay, supporting both iOS and Android platforms.
+Abelian mobile application designed for the Abelian blockchain and its Layer 2 network QDay, supporting both iOS and Android platforms.
 
-As a cryptocurrency wallet for the post-quantum era, Abelian Pro features the following core characteristics:
+As a cryptocurrency wallet for the post-quantum era, Abelian mobile features the following core characteristics:
 
 - **Quantum Security**: Based on quantum-resistant cryptographic algorithms, protecting your digital assets from future quantum computing threats;
 - **Multi-Level Privacy (MLP)**: Supports both Pseudo-Private and Fully-Private address types, allowing you to choose privacy levels based on your needs;
@@ -22,14 +22,14 @@ As a cryptocurrency wallet for the post-quantum era, Abelian Pro features the fo
 - **QDAY** is the token of the Abelian Layer 2 network, compatible with Ethereum Virtual Machine (EVM), **and can be exported as a private key and imported into MetaMask**.
 :::
 
-## Download Abelian Pro Application
+## Download Abelian mobile Application
 
 ### iOS Platform
 
 1. Open the App Store on your iPhone or iPad
-2. Search for "Abelian Pro" or go directly to [Abelian Pro on App Store](https://apps.apple.com/us/app/abelian-pro/id6475756639)
+2. Search for "Abelian" or go directly to [Abelian on App Store](https://apps.apple.com/us/app/abelian-pro/id6475756639)
 3. Tap the "Get" button to download and install the application
-4. After installation, tap the Abelian Pro icon on the home screen to launch the app
+4. After installation, tap the Abelian icon on the home screen to launch the app
 
 **System Requirements**: iOS 13.0 or higher
 
@@ -38,31 +38,31 @@ As a cryptocurrency wallet for the post-quantum era, Abelian Pro features the fo
 Method 1: Google Play Store
 
 1. Open Google Play Store on your Android device;
-2. Search for "Abelian Pro" or go directly to [Abelian Pro on Google Play](https://play.google.com/store/apps/details?id=info.abelian.walletpro);
+2. Search for "Abelian" or go directly to [Abelian on Google Play](https://play.google.com/store/apps/details?id=info.abelian.walletpro);
 3. Tap the "Install" button to download and install the application;
-4. After installation, tap the Abelian Pro icon in the app list to launch the app.
+4. After installation, tap the Abelian icon in the app list to launch the app.
 
 Method 2: Direct APK Download
 
-1. Go to [Abelian Community Website Downloads Page](https://community.pqabelian.io/zh/downloads/latest.html#abelian-pro-移動應用) to download the Abelian Pro APK file;
+1. Go to [Abelian Community Website Downloads Page](https://community.pqabelian.io/zh/downloads/latest.html#-移動應用) to download the Abelian APK file;
 2. Open the file manager on your Android device;
 3. Locate the downloaded APK file;
 4. Tap the APK file to begin installation;
-5. After installation, tap the Abelian Pro icon in the app list to launch the app.
+5. After installation, tap the Abelian icon in the app list to launch the app.
 
 **System Requirements**: Android 6.0 or higher
 
 ## First-Time Setup Guide
 
-When you first launch the Abelian Pro application, you will see the welcome screen.
+When you first launch the Abelian mobile application, you will see the welcome screen.
 
-![Abelian Pro Welcome Screen](/abelian-pro/welcome.png)
+![Abelian mobile App Welcome Screen](/abelian/welcome.png)
 
-- Tap the "Continue" button repeatedly to read through the Abelian Pro feature introduction pages, then tap the "Get Started" button to enter the language selection screen. Select your language and tap the "Next" button to enter the wallet main interface;
-    ![Abelian Pro Language Selection Screen](/abelian-pro/language-selection.png)
+- Tap the "Continue" button repeatedly to read through the Abelian mobile App feature introduction pages, then tap the "Get Started" button to enter the language selection screen. Select your language and tap the "Next" button to enter the wallet main interface;
+    ![Abelian mobile App Language Selection Screen](/abelian/language-selection.png)
 
 - The bottom navigation bar of the main interface is divided into four sections:
-    ![Abelian Pro Main Screen](/abelian-pro/main-screen.png)
+    ![Abelian mobile App Main Screen](/abelian/main-screen.png)
     1. **Abelian**: \$ABEL wallet page, where you can purchase and transfer ABEL, and view ABEL wallet type balances, transaction history, and other information;
     2. **QDay**: \$QDAY wallet page, where you can transfer QDAY and view balances and transaction history for QDAY, WQDAY, WABEL, and USD8, with support for USD8 conversion, and includes web links for ABEL Bridge, ABEL Staking, QDay Staking, and QDay Swap;
     3. **Discover**: Discovery page, displaying Abelian's official website cluster, market data, and official social networks;
@@ -70,7 +70,7 @@ When you first launch the Abelian Pro application, you will see the welcome scre
 
 ## Create ABEL Wallet Account
 
-Abelian Pro supports two different types of wallets: Legacy and MLP, each with specific purposes and advantages.
+Abelian mobile App supports two different types of wallets: Legacy and MLP, each with specific purposes and advantages.
 
 - **Create Pseudo-Private Wallet**: Pseudo-Private wallets provide a balance between privacy and performance, suitable for daily transactions, with the highest transfer amount limit.
 - **Create Fully-Private Wallet**: Fully-Private wallets provide the highest level of privacy protection, completely hiding transaction information, with a transfer amount limit higher than Legacy wallets.
@@ -79,18 +79,18 @@ Abelian Pro supports two different types of wallets: Legacy and MLP, each with s
 **Creation Steps**:
 
 1. On the Abelian wallet main interface, tap the "I don't have an ABEL account" button to start creating an ABEL wallet;
-   ![Abelian Pro Create Account](/abelian-pro/create-account-1.png)
+   ![Abelian mobile App Create Account](/abelian/create-account-1.png)
 2. When creating a wallet for the first time, the Passcode setup screen will automatically appear. Enter a six-digit password twice. If the device has fingerprint or "Touch ID" functionality, a Biometric Login confirmation screen will appear. Tap the "Confirm" button to complete security setup;
-   ![Set Passcode](/abelian-pro/set-passcode.png)
+   ![Set Passcode](/abelian/set-passcode.png)
 3. On the Create Account interface, set the wallet "Name"⓵ and tap the "Create" button⓶ to create the wallet;
-   ![Create Account 2](/abelian-pro/create-account-2.png)
+   ![Create Account 2](/abelian/create-account-2.png)
 4. The Advanced options below can be expanded⓷ to choose between "Create an MLP Pseudo-Private account", "Create an MLP Fully-Private account", and "Create a Legacy account". The default is Pseudo-Private wallet;
 5. After confirming the password or biometric authentication, tap the "Done" button to complete wallet creation and enter the wallet main screen.
 
 
 ## Create QDAY Wallet Account
 
-QDay wallet accounts use EVM-compatible private key format. In Abelian Pro, there's no need to configure the QDay network; you only need to link it with an existing ABEL wallet.
+QDay wallet accounts use EVM-compatible private key format. In Abelian mobile App, there's no need to configure the QDay network; you only need to link it with an existing ABEL wallet.
 
 :::tip Note
 If your ABEL wallet is a Legacy wallet, you cannot create a QDay wallet and need to upgrade to an MLP wallet.
@@ -173,7 +173,7 @@ For detailed steps, please refer to: [MetaMask Wallet Account User Guide - Impor
 
 ## Import ABEL Wallet
 
-If you already have an ABEL wallet mnemonic phrase or private key, you can import it into Abelian Pro.
+If you already have an ABEL wallet mnemonic phrase or private key, you can import it into Abelian mobile App.
 
 **Import via Mnemonic Phrase or Private Key**:
 
@@ -206,8 +206,8 @@ Send ABEL tokens to other Abelian wallet addresses (including Pseudo-Private, Fu
 3. In the "Send ABEL" selection menu, you can choose:
    - "New address": Enter the recipient's ABEL address
    - "ABEL Bridge": Scan the QR code on the ABEL Bridge webpage to automatically fill in the ABEL address for exchanging staking WABEL tokens
-   - "Your Accounts": Select an existing ABEL wallet account in the current Abelian Pro
-   - "Contacts": Select a saved contact ABEL address in the current Abelian Pro
+   - "Your Accounts": Select an existing ABEL wallet account in the current Abelian mobile App
+   - "Contacts": Select a saved contact ABEL address in the current Abelian mobile App
 4. Using "New address" as an example, enter the "Send ABEL" page and input the "Recipient's address" through the following two methods:
    - Tap the "Scan QR" button to automatically fill in the ABEL address by scanning the ABEL address QR code on another device
    - Tap the "Paste" button to paste the ABEL address from the clipboard
@@ -269,7 +269,7 @@ Send QDAY tokens to other QDay wallet addresses.
 
 ## View Wallet Information and Sync Status
 
-Abelian Pro provides detailed wallet account information and sync status display.
+Abelian mobile App provides detailed wallet account information and sync status display.
 
 **ABEL Wallet Account Details**:
 
@@ -301,7 +301,7 @@ Abelian Pro provides detailed wallet account information and sync status display
 
 ## Purchase ABEL
 
-Abelian Pro provides the ability to purchase ABEL using USDT and USDC.
+Abelian mobile App provides the ability to purchase ABEL using USDT and USDC.
 
 **Purchase Steps**:
 
@@ -317,7 +317,7 @@ Abelian Pro provides the ability to purchase ABEL using USDT and USDC.
 
 ## Convert USD8
 
-Abelian Pro provides the ability to convert USD8 stablecoin using USDT and USDC.
+Abelian mobile App provides the ability to convert USD8 stablecoin using USDT and USDC.
 
 **Conversion Steps**:
 

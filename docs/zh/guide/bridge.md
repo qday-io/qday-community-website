@@ -9,7 +9,7 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 :::tip 前置要求
 開始之前，請確認您已備妥：
 - 安裝並設定 [MetaMask 錢包](/zh/guide/metamask#下載-metamask-擴充程式)
-- 安裝 **Abelian Pro** 行動錢包（iOS / Android），且持有足夠的 ABEL 代幣
+- 安裝 **Abelian** 行動錢包（iOS / Android），且持有足夠的 ABEL 代幣
 :::
 
 ---
@@ -51,11 +51,11 @@ ABEL Bridge（[abel-bridge.qday.io](https://abel-bridge.qday.io)）是連接 Abe
 4. 請仔細核對 **Abelian 錢包地址**，輸入錯誤將導致轉帳失敗或資產遺失。
 :::
 
-### 2.2 使用 Abelian Pro 掃碼轉帳
+### 2.2 使用 Abelian 行動錢包掃碼轉帳
 
 1. 頁面進入 **掃描二維碼** 階段，並顯示操作說明與 QR Code：
-2. 使用 **Abelian Pro 行動錢包** 的掃碼功能掃描頁面上的 **QR Code**①，確認金額與地址後完成轉帳。
-3. 轉帳成功後，從 Abelian Pro 複製 **交易哈希（TXID）**，貼入頁面底部的「交易哈希」欄位②，然後點擊 **「我已完成轉帳」**③。
+2. 使用 **Abelian 行動錢包** 的掃碼功能掃描頁面上的 **QR Code**①，確認金額與地址後完成轉帳。
+3. 轉帳成功後，從 Abelian 行動錢包複製 **交易哈希（TXID）**，貼入頁面底部的「交易哈希」欄位②，然後點擊 **「我已完成轉帳」**③。
    ![掃描二維碼轉賬](/qday/bridge/scan-qrcode-zh.png)
 
 :::warning 重要提醒

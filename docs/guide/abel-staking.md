@@ -9,7 +9,7 @@ outline: deep
 Before you begin staking, please ensure you have the following:
 
 - An EVM-compatible wallet (MetaMask recommended)
-- ABEL tokens in your Abelian Pro wallet
+- ABEL tokens in your Abelian mobile wallet
 - A small amount of QDAY for transaction fees on QDay network
 
 :::tip Tip
@@ -72,9 +72,9 @@ Follow these steps to start staking:
 
   ![Generated QR code for cross-chain transfer](/qday/abel-staking/image5.png)
 
-- Use your Abelian Pro wallet to scan the QR code.
+- Use your Abelian mobile wallet to scan the QR code.
 
-  ![Scan QR code with Abelian Pro wallet](/qday/abel-staking/image6.png)
+  ![Scan QR code with Abelian mobile wallet](/qday/abel-staking/image6.png)
 
 - Verify the received WABEL amount.
 

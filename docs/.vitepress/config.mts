@@ -67,7 +67,7 @@ export default defineConfig({
                     { text: 'QDay Introduction', link: '/guide/' },
                     { text: 'QDay Basics', link: '/guide/basics' },
                     { text: 'MetaMask Wallet', link: '/guide/metamask' },
-                    { text: 'Abelian Pro', link: '/guide/abelian-pro' },
+                    { text: 'Abelian Mobile Wallet', link: '/guide/abelian-mobile-wallet' },
                     { text: 'ABEL Bridge', link: '/guide/bridge' },
                     { text: 'QDay Staking', link: '/guide/qday-staking' },
                     { text: 'ABEL Staking', link: '/guide/abel-staking' }
@@ -84,7 +84,7 @@ export default defineConfig({
         },
 
         footer: {
-          copyright: '© 2025 <a href="https://qday.io" target="_blank">Abelian</a> | All rights reserved'
+          copyright: '© 2026 <a href="https://qday.io" target="_blank">Abelian</a> | All rights reserved'
         }
       }
     },
@@ -147,7 +147,7 @@ export default defineConfig({
                     { text: 'QDay 簡介', link: '/zh/guide/' },
                     { text: 'QDay 基礎知識', link: '/zh/guide/basics' },
                     { text: 'MetaMask 錢包', link: '/zh/guide/metamask' },
-                    { text: 'Abelian Pro', link: '/zh/guide/abelian-pro' },
+                    { text: 'Abelian 行動錢包', link: '/zh/guide/abelian-mobile-wallet' },
                     { text: 'ABEL 跨鏈橋', link: '/zh/guide/bridge' },
                     { text: 'QDay 質押', link: '/zh/guide/qday-staking' },
                     { text: 'ABEL 質押', link: '/zh/guide/abel-staking' }

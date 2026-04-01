@@ -28,7 +28,7 @@ outline: deep
 
 現在您已經了解了 QDay 生態系統，請選擇您的路徑：
 
-- [**QDay 新手？**](/zh/guide/wallet/metamask.html) / [**ABEL 新手？**](/zh/guide/wallet/abelian-pro.html)
+- [**QDay 新手？**](/zh/guide/metamask) / [**ABEL 新手？**](/zh/guide/abelian-mobile-wallet)
 
 ### QDay 主網
 

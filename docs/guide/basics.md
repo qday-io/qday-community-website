@@ -28,8 +28,8 @@ Whether you're a new user, developer, or miner, this guide will help you choose 
 
 Now that you understand the QDay ecosystem, choose your path:
 
-- [**New to QDay?**](/guide/metamask.html)
-- [**New to ABEL?**](/guide/abelian-pro.html)
+- [**New to QDay?**](/guide/metamask)
+- [**New to ABEL?**](/guide/abelian-mobile-wallet)
 
 ### QDay Mainnet
 

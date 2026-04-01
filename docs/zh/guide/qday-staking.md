@@ -122,7 +122,7 @@ QDAY 總供應量的 50%(約 112.59 億枚代幣)分配用於質押獎勵。
 Abelian 是一個獨立的後量子區塊鏈網路,使用與 EVM 不同的技術架構。MetaMask 是專為以太坊虛擬機(EVM)相容鏈設計的錢包,因此無法支援 Abelian 網路。
 
 :::warning 注意
-如果您需要使用 Abelian 網路,請使用 [Abelian Pro 行動錢包應用程式](/zh/guide/abelian-pro)。
+如果您需要使用 Abelian 網路,請使用 [Abelian 行動錢包應用程式](/zh/guide/abelian-mobile-wallet)。
 :::
 
 ### Q2: QDAY 網路可以新增到 MetaMask 嗎?

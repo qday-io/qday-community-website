@@ -84,14 +84,14 @@ Click the MetaMask icon in the toolbar. On the account interface, click the "Tok
 ## Import QDAY Wallet
 
 :::tip Tip
-This step requires first backing up the private key from the QDAY wallet account details page in the Abelian Pro mobile wallet application, then following the steps below to import the QDAY wallet account into MetaMask.
+This step requires first backing up the private key from the QDAY wallet account details page in the Abelian mobile wallet application, then following the steps below to import the QDAY wallet account into MetaMask.
 :::
 
 1. Click the MetaMask icon in the toolbar. In the popup window, click the dropdown icon next to "Account1" at the top left to enter the account list, click "Add wallet" to create a new account;
    ![Add MetaMask Account](/qday/metamask/add-metamask-account.png)
-2. On the add account page, select "Import an account" to import the QDAY wallet account from Abelian Pro;
+2. On the add account page, select "Import an account" to import the QDAY wallet account from Abelian mobile App;
    ![Import QDAY Wallet Account](/qday/metamask/import-qday-account.png)
-3. On the "Add wallet" page, select "Private Key" and enter the private key string backed up from the Abelian Pro mobile wallet, then click the "Import" button to complete the QDAY wallet import;
+3. On the "Add wallet" page, select "Private Key" and enter the private key string backed up from the Abelian mobile wallet, then click the "Import" button to complete the QDAY wallet import;
    ![Enter QDAY Wallet Private Key](/qday/metamask/input-qday-privatekey.png)
 4. A wallet account named "Imported Account 1" will be added to the account list interface. You can click the three-dot menu icon on the right, select "Rename" from the popup menu, enter a new wallet name in the "Account name" box that appears, and click the "Confirm" button to complete the rename;
    ![Rename MetaMask Account](/qday/metamask/rename-metamask-account.png)
