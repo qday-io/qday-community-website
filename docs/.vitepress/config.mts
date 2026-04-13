@@ -41,8 +41,7 @@ export default defineConfig({
               { text: 'Swap', link: 'https://portal.qday.info/en/qday-swap' },
               { text: 'Staking', link: 'https://portal.qday.info/en/staking' }
             ]
-          },
-          { text: 'Ask Hako', link: 'https://hako.pqabelian.io' }
+          }
         ],
 
         sidebar: {
@@ -119,8 +118,7 @@ export default defineConfig({
               { text: '兌換', link: 'https://portal.qday.info/zh-HK/qday-swap' },
               { text: '質押', link: 'https://portal.qday.info/zh-HK/staking' }
             ]
-          },
-          { text: '詢問 Hako', link: 'https://hako.pqabelian.io/zh/' }
+          }
         ],
 
         sidebar: {

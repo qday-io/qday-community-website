@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: Github
       link: https://github.com/qday-io
-    - theme: alt
-      text: 詢問 Hako
-      link: https://hako.pqabelian.io
 
 features:
   - icon: 🛡️
