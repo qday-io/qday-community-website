@@ -2,124 +2,125 @@
 outline: deep
 ---
 
-# MetaMask Wallet Account User Guide
+# MetaMask Wallet User Guide
 
 ## Download MetaMask Extension
 
 1. Open your browser and visit the [MetaMask official website](https://metamask.io/).
+2. Chrome browser installation example: click "[Install MetaMask for Chrome](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)" and follow the prompts to "Add Extension".
 
-2. Select and install the extension suitable for your browser:
+   ![Install MetaMask Extension for Chrome](/qday/metamask/chrome-metamask-install-en.png)
 
-:::tip
-Since the MetaMask extension for Microsoft Edge browser is still on v12, while Chrome and Firefox have both been updated to v13, this user guide is based on v13. Edge users should use this guide for reference only.
-:::
+3. Other supported browsers:
+   - [Install MetaMask for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)
+   - [Install MetaMask for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
-   - For Chrome browser, click "[Install MetaMask for Chrome](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)".
-   ![Install MetaMask Extension for Chrome](/qday/metamask/chrome-metamask-install-en.png)<br>
-   - For Firefox browser, click "[Install MetaMask for Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)".
-   ![Install MetaMask Extension for Firefox](/qday/metamask/firefox-metamask-install-en.png)<br>
-   - For Microsoft Edge browser, click "[Install MetaMask for Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)".
-   ![Install MetaMask Extension for Microsoft Edge](/qday/metamask/edge-metamask-install-en.png)<br>
-1. After clicking to add the extension, a MetaMask installation page will pop up. Click "Add Extension" or "Install".
-   ![MetaMask Installation Page](/qday/metamask/add-to-edge-en.png)
-2. After installation is complete, a MetaMask setup page will open, or click the extension icon in the upper right corner of the browser and select the MetaMask icon from the dropdown menu to begin setup.
-   ![MetaMask Extension Icon Location](/qday/metamask/metamask-display-icon-en.png)
-   (You can click "Show in toolbar" to display the MetaMask icon directly in the toolbar)
+4. After installation, click the extension icon in your browser toolbar to begin setup.
 
 ## Create MetaMask Wallet Account
 
-1. Click the MetaMask icon in the toolbar to open the MetaMask extension setup page, then click "Create a new wallet";
-   ![Create MetaMask Wallet](/qday/metamask/create-metamask-wallet.png)
-2. In the "Choose an option to continue" window that appears, click "Use Secret Recovery Phrase";
-   ![Choose to Use Secret Recovery Phrase](/qday/metamask/create-metamask-wallet2.png)
-3. On the create password page, set a strong password, check "If I lose this password, MetaMask can't reset it.", then click "Create password";
-   ![Set MetaMask Password](/qday/metamask/set-metamask-password.png)
-4. On the "Save your Secret Recovery Phrase" page, click the "Tap to reveal" area to display the recovery phrase. Copy and backup the 12-word recovery phrase locally (very important!), and keep it safe. After completion, click the "Continue" button;
-   ![Backup MetaMask Recovery Phrase](/qday/metamask/backup-metamask-mnemonic.png)
-5. On the "Confirm your Secret Recovery Phrase" page, select the three corresponding words from the bottom in the prompted order to fill in the blanks and verify your recovery phrase. Click "Continue". If verification is successful, a "Perfect That's right!" window will appear - click the "Got it" button;
-   ![Verify MetaMask Recovery Phrase](/qday/metamask/verify-metamask-mnemonic.png)
-6. On the "Help us improve MetaMask" page, make your selection as needed and click the "Continue" button. On the "Your wallet is ready!" page, click "Done" to complete wallet creation.
-   ![MetaMask Improvement](/qday/metamask/metamask-improve.png)
+1. Click the MetaMask extension icon in your browser toolbar to begin setup.
+2. Select Create a new wallet.
+3. Follow the on-screen instructions to create a strong password.
+4. MetaMask will generate a Secret Recovery Phrase. Write down all 12 words in the exact order and store them in a safe, offline location.
+5. Verify the phrase when prompted to complete wallet creation.
 
-**Note**: The recovery phrase and private key are the only backup of your wallet account. Keep them safe and do not share them with others.
+:::warning Important:
+Your Secret Recovery Phrase is the master backup for your MetaMask wallet. Anyone who has this phrase can control your assets. 
+Creating a MetaMask wallet generates a new wallet backup using your Secret Recovery Phrase.
+If you later import an account using a private key, that imported account may not be recoverable using the Secret Recovery Phrase of the MetaMask wallet you just created.
+Make sure you keep a secure backup of any imported private key or maintain access to the original wallet where that account was created.
+:::
+
+:::danger Never do the following:
+- Never share your Secret Recovery Phrase with anyone
+- Never enter it into a website
+- Never save it in screenshots, email, chat apps, or cloud notes
+- Never give it to anyone claiming to be support
+:::
 
 ## Get Wallet Address
 
-1. Click the MetaMask icon in the browser toolbar. In the popup window, click the dropdown icon next to "Account 1" at the top left;
-   ![Select MetaMask Wallet](/qday/metamask/get-metamask-address1.png)
-2. In the account list, click the three-dot menu icon next to "Account 1", and select "Addresses" from the popup menu;
-   ![Expand MetaMask Wallet Menu](/qday/metamask/get-metamask-address2.png)
-3. On the "Addresses" page, click the "Copy to clipboard" icon button to copy the wallet address to your local clipboard, or click the "Show QRCode" icon button, then click the "Copy address" button below the wallet address to copy it to your local clipboard. The QR code is convenient for mobile wallets to scan and transfer.
-   ![Copy MetaMask Wallet Address](/qday/metamask/get-metamask-address3.png)
+1. Open MetaMask.
+2. Select the account you want to use.
+3. Click the account name or address area to copy your wallet address to the clipboard.
+
+:::info Note:
+Your wallet address is public and can be shared to receive assets.
+:::
+
+:::warning Safety tip:
+Before sending or receiving funds, always double-check the pasted address. Some malware can replace copied wallet addresses in your clipboard.
+:::
+
+![Copy MetaMask Wallet Address](/qday/metamask/get-metamask-address3.png)
 
 ## Add QDAY Network to MetaMask
 
-### Automatically Add QDAY to MetaMask Network List
+### Automatically Add QDAY Network
 
-The blockchain explorer's automatic QDAY addition to MetaMask network feature has been launched:
+1. Visit [QDay Explorer](https://explorer.qday.io).
+2. Click **"Add QDay Mainnet"** in the upper right corner to add QDAY to MetaMask automatically.
+3. If MetaMask opens a network approval prompt, carefully review the network details before approving.
+   Verify the following before confirming:
+   - Network Name: QDAY
+   - RPC URL: https://rpc.qday.io
+   - Chain ID: 44001
+   - Currency Symbol: QDAY
+   - Block Explorer URL: https://explorer.qday.io
 
-1. Please visit [QDay Explorer](https://explorer.qday.io);
-2. Click the "Add QDay Mainnet" button in the upper right corner of the page, confirm the addition, and QDAY will be automatically added to MetaMask.
+### Manually Add QDAY Network
 
-### Manually Add QDAY to MetaMask Network List
+If automatic addition fails, you can add the network manually:
 
-1. Click the MetaMask icon in the browser toolbar. In the popup window, click the "☰" menu icon at the top right, and select "Networks" from the dropdown menu;
-   ![MetaMask Network Menu](/qday/metamask/metamask-network-menu.png)
-2. On the "Manage networks" page that appears, click the "Add a custom network" button at the bottom;
-   ![Manually Add QDAY Network](/qday/metamask/add-metamask-network1.png)
-3. On the manual network addition page, fill in the following information:
+1. Open MetaMask, click the "☰" menu at the top right, and select **"Networks"**.
+2. Click **"Add a custom network"** and fill in the following details:
    - **Network Name**: QDAY
    - **Default RPC URL**: `https://rpc.qday.io`
    - **Chain ID**: 44001
    - **Currency Symbol**: QDAY
    - **Block Explorer**: `https://explorer.qday.io`
-   ![Manually Add QDAY Network](/qday/metamask/add-metamask-network2.png)
-   Click the "Save" button to complete the addition.
 
-### Connect to QDAY Network
+   ![Manually Add QDAY Network](/qday/metamask/add-metamask-network-en.png)
 
-Click the MetaMask icon in the toolbar. On the account interface, click the "Tokens" tab, then select and switch to "QDAY" from the network list selector in the upper left corner.
-   ![MetaMask Switch to QDAY Network](/qday/metamask/switch-metamask-qday-network.png)
+3. Click **"Save"** to jump to the QDAY network.
 
 ## Import QDAY Wallet
 
-:::tip Tip
-This step requires first backing up the private key from the QDAY wallet account details page in the Abelian mobile wallet application, then following the steps below to import the QDAY wallet account into MetaMask.
-:::
+1. First, export the private key of your QDAY wallet from the Abelian mobile app.
+2. In MetaMask, open the account dropdown menu at the top left and select **"Add wallet"** > **"Import an account"**.
 
-1. Click the MetaMask icon in the toolbar. In the popup window, click the dropdown icon next to "Account1" at the top left to enter the account list, click "Add wallet" to create a new account;
-   ![Add MetaMask Account](/qday/metamask/add-metamask-account.png)
-2. On the add account page, select "Import an account" to import the QDAY wallet account from Abelian mobile App;
    ![Import QDAY Wallet Account](/qday/metamask/import-qday-account.png)
-3. On the "Add wallet" page, select "Private Key" and enter the private key string backed up from the Abelian mobile wallet, then click the "Import" button to complete the QDAY wallet import;
-   ![Enter QDAY Wallet Private Key](/qday/metamask/input-qday-privatekey.png)
-4. A wallet account named "Imported Account 1" will be added to the account list interface. You can click the three-dot menu icon on the right, select "Rename" from the popup menu, enter a new wallet name in the "Account name" box that appears, and click the "Confirm" button to complete the rename;
-   ![Rename MetaMask Account](/qday/metamask/rename-metamask-account.png)
-5. In this example, the account is named "QDAY-1". Click to select this account. You can switch between the two accounts in the account list.
-   ![Select MetaMask Account](/qday/metamask/select-metamask-account.png)
 
-## Add QDAY ERC20 Tokens to MetaMask
+3. Select **"Private Key"**, paste your backed-up private key, and click **"Import"**. Your QDAY wallet is now successfully added to MetaMask.
+
+   ![Enter QDAY Wallet Private Key](/qday/metamask/input-qday-privatekey-en.png)
+
+## Add ERC20 Tokens to MetaMask
 
 ### Add USD8 Token to MetaMask
 
-1. Click the MetaMask icon in the browser toolbar. On the main interface's "Tokens" tab, click "Import tokens";
+1. Make sure you are connected to the QDAY network in MetaMask.
+2. Under the **"Tokens"** tab, click **"Import tokens"**.
+
    ![MetaMask Import USD8 Token 1](/qday/metamask/import-tokens1.png)
-2. On the "Import tokens" page, first select the QDAY network, then enter the USD8 Token address in the "Token contract address" field: `0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
+
+3. Paste the relevant Token Contract Address from the list below into the "Token contract address" field.
+
    ![MetaMask Import USD8 Token 2](/qday/metamask/import-tokens2.png)
-3. Wait a moment and the USD8 Token information will automatically load - Token symbol and Token decimal. Click the "Next" button;
-4. A confirmation import window will appear. Click the "Import" button to complete the import.
+
+4. The remaining information will populate automatically. Click **"Next"** and then **"Import"**.
+
    ![MetaMask Import USD8 Token 3](/qday/metamask/import-tokens3.png)
-5. The USD8 token balance will now be displayed in the Tokens tab on the MetaMask main interface.
-   ![MetaMask Display USD8 Token](/qday/metamask/usd8-tokens.png)
 
 ### Add WQDAY and WABEL Tokens
 
 #### Token Contract Address List
 
-| Contract Name | Address                                    | Description                 |
-| ------------- | ------------------------------------------ | --------------------------- |
-| USD8          | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | USD Token Contract          |
-| WQDAY         | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | Wrapped QDAY Token Contract |
-| WABEL         | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | Wrapped ABEL Token Contract |
+| Contract Name | Token Contract Address                     |
+| ------------- | ------------------------------------------ |
+| **USD8**      | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB |
+| **WQDAY**     | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 |
+| **WABEL**     | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 |
 
-Tip: [Follow the USD8 steps](#add-usd8-token-to-metamask) to add WQDAY and WABEL tokens to MetaMask.
+Tip: Follow the same steps above to add WQDAY and WABEL tokens to MetaMask.

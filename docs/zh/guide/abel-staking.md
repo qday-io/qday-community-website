@@ -4,133 +4,109 @@ outline: deep
 
 # ABEL 質押用戶指引
 
-## 前置要求
+## 簡介：ABEL 質押如何運作
 
-在開始質押之前,請確保您已經準備好以下內容:
+質押就像把您的數位資產存入高收益的儲蓄帳戶。透過在特定期限內「鎖定」您的代幣，您每天都能賺取獎勵。
 
-- 一個支援 EVM 的錢包(推薦使用 MetaMask)
-- Abelian 行動錢包中有 ABEL 代幣
-- 少量 QDAY 用於支付 QDay 網路上的交易手續費
+### 3 個步驟：
 
-:::tip 提示
-如果您還沒有 MetaMask 錢包,請參考 [MetaMask 錢包帳戶用戶指引](/zh/guide/metamask)。
+1. **設定您的數位錢包**：您將使用 MetaMask 來持有和管理您的資金。
+2. **轉換您的代幣**：您必須將標準的 ABEL 代幣轉換為 WABEL，以便它們能在質押網路上運作。
+3. **存入並賺取**：您選擇要質押多少代幣以及鎖定多長時間，即可開始賺取獎勵。
+
+:::warning 重要提示
+您無法直接使用標準的 Abelian 行動錢包應用程式在此網站上進行質押。因為 Abelian 網路與網頁錢包使用的系統在技術上有所不同，您必須使用 MetaMask 並按照下方描述的 WABEL 轉換流程進行操作。
 :::
 
-## ABEL 質押的目的是什麼?
+## 前置要求
 
-ABEL 質押允許您質押 ABEL 代幣,並每天賺取 QDAY 代幣。這是 QDay 生態系統的核心功能之一,專為後量子 Abelian 網路的長期支持者設計。
+在開始質押之前，請確保您已準備好以下內容：
 
-透過將 ABEL 轉換為其封裝形式 **WABEL**,您可以選擇質押 WABEL 的期限——範圍從 **3 個月到 4 年**。質押期限越長,每天賺取的 QDAY 代幣就越多。
+- 一個支援 EVM 的錢包（推薦使用 MetaMask）並已切換至 QDay 主網。
+- 已經持有 WABEL 代幣（需在 Abelian 網路持有 ABEL，並將其跨鏈轉換至 QDay 網路）。
+- 少量 WABEL 用於支付 QDay 網路上的交易手續費。
 
-這個系統將被動持有的 ABEL 轉化為主動產生收益的資產,使用戶激勵與生態系統成長保持一致。
+### 如何取得 WABEL？
 
-## 如何運作
-
-要參與 ABEL 質押,請遵循以下三個簡單步驟:
-
-1. **轉換 ABEL → WABEL**:
-
-   造訪 [portal.qday.io](http://portal.qday.io) 並使用官方 Abelian 鏈橋接,將 Abelian 網路上的 ABEL 代幣轉換為 QDay 網路上的封裝 ABEL 代幣(WABEL)。
-
-2. **質押 WABEL 並接收 cvxQDAY**:
-
-   選擇您想要鎖定 WABEL 代幣的時間長度(最少:3 個月)。質押後,您將立即收到 cvxQDAY 代幣,它作為您的質押憑證和獎勵憑證。
-
-3. **賺取 QDAY**:
-
-   只要您持有 cvxQDAY,您就會每天收到 QDAY 空投。一旦鎖定期結束,您可以歸還 cvxQDAY 來解除質押您的 WABEL。然後您可以選擇透過 Abelian 鏈橋接將 WABEL 轉換回 ABEL。
+如果您尚未持有 WABEL，請先造訪 **[WABEL 轉換頁面](https://portal.qday.io/zh-HK/abel-conversion)**，將 Abelian 網路上的 ABEL 代幣跨鏈轉換為 WABEL。
 
 ## 教學
 
-請按照以下步驟開始質押:
+請按照以下步驟開始質押：
 
-### 步驟 1: 轉換 ABEL 為 WABEL
+### 步驟 1: 設定錢包
 
-- 前往 QDay Portfolio: <https://portal.qday.io/>
+登入您的 EVM 錢包（例如 MetaMask）並新增 QDay 主網為自訂網路。詳細步驟請參考 [MetaMask 錢包帳戶用戶指引 - 新增 QDay 網路](/zh/guide/metamask#新增-qday-網路到-metamask)。
 
-- 點擊 **Bridge** 頁面。
+### 步驟 2: 訪問質押頁面
 
-  ![橋接頁面介面](/qday/abel-staking/image1.png)
+- 前往 <https://portal.qday.io/>
+- 在左側導覽列點擊 **「質押(Staking)」**，進入質押頁面。
 
-- 點擊 **「連接錢包(Connect Wallet)」** 來連接您的 EVM 錢包(例如 MetaMask)。
+  ![質押門戶主頁](/qday/staking/portal-2-zh.png)
 
-- 在您的錢包中,新增 QDay 主網為自訂網路。詳細步驟請參考 [MetaMask 錢包帳戶用戶指引 - 新增 QDay 網路](/zh/guide/metamask#新增-qday-網路到-metamask)。
+- 點擊 **「連接錢包(Connect Wallet)」** 完成連結。
 
-  ![連接錢包提示](/qday/abel-staking/image2.png)
+  ![連接錢包選項](/qday/staking/qday-connect-wallet-dialog-zh.png)
 
-  ![新增 QDay 主網到 MetaMask](/qday/abel-staking/image3.png)
+### 步驟 3: 質押
 
-- 將您的錢包切換至 QDay 主網。
+#### 質押
 
-- 返回 Abelian 鏈橋接。
+- 在「選擇代幣」下拉選單中選擇 **WABEL**。
 
-- 在 **「From」** 區段選擇 **「Abelian」**(**「To」** 區段將自動切換為 **「QDay」**)。手動輸入 ABEL 數量和您的 QDay 接收地址(這也將是您的 WABEL 接收地址)。
+  ![WABEL 質押介面](/qday/staking/wabel-staking-zh.png)
 
-- 點擊 **「產生 QR Code(Generate QR Code)」**。
+- 確認 WABEL 餘額充足（最低質押數量為 1,000 WABEL）後，輸入要質押的 WABEL 數量，選擇鎖定期限，然後點擊 **「質押(Stake)」** 並在您的錢包中確認交易。
 
-  ![橋接介面,輸入數量](/qday/abel-staking/image4.png)
+#### 我的質押 (My Staking)
 
-  ![產生的跨鏈轉帳 QR Code](/qday/abel-staking/image5.png)
+質押完成後，您可以在「我的質押(My Staking)」分頁查看詳情：
 
-- 使用您的 Abelian 行動錢包掃描 QR Code。
+- **每日獎勵自動累積** → **領取** 您的待領獎勵 → 從金庫餘額 **提領** 至您的 EVM 錢包。
+- 每筆記錄將顯示質押數量、鎖定期及剩餘天數，並提供以下操作：
+  - **延長鎖定期 (Extend Lock Period)**: 延長現有質押的鎖定期限以繼續累積獎勵。
+  - **增加質押 (Add Stake)**: 對現有質押位追加代幣以提升每日獎勵。
+  - **解除質押 (Unstake)**: 鎖定期到期後，取回質押的代幣。鎖定期內無法操作。
 
-  ![使用 Abelian 行動錢包掃描 QR Code](/qday/abel-staking/image6.png)
+#### 儀表盤 (Dashboard)
 
-- 驗證收到的 WABEL 數量。
+在左側導覽列點擊 **「儀表盤(Dashboard)」** 分頁，您可以全方位檢視您的所有質押資產。
 
-  ![WABEL 餘額確認](/qday/abel-staking/image7.png)
+## ABEL 質押獎勵
 
----
-
-### 步驟 2: 質押 WABEL
-
-- 前往 **ABEL 質押(ABEL Staking)** 頁面,如果您尚未連接錢包,請先連接。
-
-- 輸入要質押的 WABEL 數量,選擇您的鎖定期限,然後點擊 **「質押 WABEL(Stake WABEL)」**。
-
-  ![ABEL 質押介面,選擇數量和鎖定期限](/qday/abel-staking/image8.png)
-
-### 步驟 3: 每天賺取 QDAY
-
-確認後,cvxQDAY 和 WQDAY 將出現在您的錢包中。
-
-:::tip 重要
-將 cvxQDAY 視為 **「質押憑證」** 和 **「獎勵憑證」**。只要您持有 cvxQDAY 代幣,您就會每天賺取獎勵。
-:::
-
-  ![錢包中的 cvxQDAY 和 WQDAY 代幣](/qday/abel-staking/image9.png)
-
-### 步驟 4: 到期後解除質押
-
-- 一旦鎖定期結束,前往 **「解除質押(Unstake)」** 分頁。
-
-- 輸入 WABEL 數量並點擊 **「解除質押 WABEL(Unstake WABEL)」**。系統將撤銷您的 cvxQDAY 並歸還您的 WABEL。
-
-- *(選擇性)* 返回 Abelian 鏈橋接,將 WABEL 轉換回 ABEL。
-
-## 獎勵詳情
-
-**最大化您的加密貨幣獎勵!**
-
-ABEL 質押根據您的鎖定期限提供不同的獎勵率——年化率高達 **1500%**。獎勵每天分配。
-
-以下是根據您的鎖定期限可以賺取的金額:
+WABEL 質押根據您的鎖定期限提供不同的獎勵倍數——年化率高達 **1500%**。獎勵每天分配。
 
 | **鎖定期限** | **天數範圍** | **倍數**  |
 | ------------ | ------------ | --------- |
+| 30 天        | 30–89 天     | —         |
 | 3 個月       | 90–179 天    | 40%       |
 | 6 個月       | 180–364 天   | 100%      |
-| 12 個月      | 365–729 天   | 250%      |
-| 24 個月      | 730–1094 天  | 600%      |
-| 36 個月      | 1095–1459 天 | 1000%     |
-| **48 個月**  | **1460 天**  | **1500%** |
+| 1 年         | 365–729 天   | 250%      |
+| 2 年         | 730–1094 天  | 600%      |
+| 3 年         | 1095–1459 天 | 1000%     |
+| **4 年**     | **1460 天**  | **1500%** |
 
-鎖定越久,賺取越多——而且每天都有收益。就是這麼簡單!
+### 了解您的獎勵
 
-## 為什麼叫「cvxQDAY」?
+- **倍數 (The Multiplier)**：您承諾鎖定代幣的時間越長，您每天的「收益」就越高。例如，選擇 4 年的鎖定期，您的獎勵份額將獲得 1500% 的倍數加成。
+- **每日發放 (Daily Payouts)**：您不必等待數年才能看到進展。即使您的主要存款被鎖定，您的獎勵也會每天累積並發放。
+- **隨時提領 (Withdraw Anytime)**：您可以隨時「領取 (Claim)」您的獎勵並將其轉移到您的錢包，這不會影響您已鎖定的存款。
+- **鎖定權重 (Lock-up Weighting)**：系統旨在獎勵長期支持者；鎖定期越長，分配的份額越高。
+- **浮動獎勵 (Variable Rewards)**：上述數據描述了質押倍數的結構。實際獎勵並不保證，並且可能會根據總資金池的參與度、網路狀況以及您具體選擇的鎖定期限而有所變化。
 
-前綴 **「cvx」** 代表 `convex`，反映了非線性獎勵曲線:較長的鎖定期產生不成比例的更高回報——這是進階 DeFi 協議中的常見設計。與「QDAY」配對,它同時表示機制和生態系統。
+## 常見問題解答 (FAQ)
 
----
+### Q1: Abelian 網路可以新增到 MetaMask 嗎?
 
-**今天就質押 ABEL。每天賺取 QDAY——長期信仰者可獲得高達 1500% 的提升!**
+**答**: 不可以。
+
+Abelian 是一個獨立的後量子區塊鏈網路,使用與 EVM 不同的技術架構。MetaMask 是專為以太坊虛擬機(EVM)相容鏈設計的錢包,因此無法支援 Abelian 網路。
+
+:::warning 注意
+如果您需要使用 Abelian 網路（例如持有 ABEL 來進行跨鏈轉換）,請使用 [Abelian 行動錢包應用程式](/zh/guide/abelian-mobile-wallet)。
+:::
+
+### Q2: 質押 WABEL 的最低數量是多少?
+
+**答**: 最低質押數量為 **1,000 WABEL**。

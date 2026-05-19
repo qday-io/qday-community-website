@@ -2,125 +2,125 @@
 outline: deep
 ---
 
-# MetaMask 錢包帳戶用戶指引
+# MetaMask 錢包用戶指引
 
 ## 下載 MetaMask 擴充程式
 
 1. 開啟瀏覽器，訪問 [MetaMask 官網](https://metamask.io/)。
+2. Chrome 瀏覽器的安裝 Metamask 擴充程式示例：點擊 “[Install MetaMask for Chrome（為 Chrome 安裝 MetaMask）](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”，然後根據提示完成安裝。
 
-2. 選擇適合你瀏覽器的擴充程式並安裝：
+   ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/chrome-metamask-install.png)
 
-:::tip 提示
-由於 Microsoft Edge 瀏覽器的 Metamask 擴充程式仍然停留在 v12 版本，而 Chrome 和 Firefox 都已經更新到 v13 版本，此用戶指引以 v13 版本為準，Edge 用戶僅作參考。
-:::
+3. 其他支援的瀏覽器擴充程式下載：
+   - [為 Firefox 安裝 MetaMask](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)
+   - [為 Microsoft Edge 安裝 MetaMask](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
-   - 對於 Chrome 瀏覽器，點擊 “[Install MetaMask for Chrome（為 Chrome 安裝 MetaMask）](https://chrome.google.com/webstore/detail/nkbihfbeogaeaoehlefnkodbefgpgknn)”。
-   ![Chrome 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/chrome-metamask-install.png)<br>
-   - 對於 Firefox 瀏覽器，點擊 “[Install MetaMask for Firefox（為 Firefox 安裝 MetaMask）](https://addons.mozilla.org/zh-CN/firefox/addon/ether-metamask/)”。
-   ![Firefox 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/firefox-metamask-install.png)<br>
-   - 對於 Microsoft Edge 瀏覽器，點擊 “[Install MetaMask for Microsoft Edge（為 Microsoft Edge 安裝 MetaMask）](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)”。
-   ![Microsoft Edge 瀏覽器安裝 MetaMask 擴充程式](/qday/metamask/edge-metamask-install.png)<br>
-3. 點擊新增擴充程式後會彈出 MetaMask 安裝頁面，點擊 “Add Extension（擴充程式）” 或 “Install（安裝）”。
-   ![MetaMask 安裝頁面](/qday/metamask/add-to-edge.png)
-4. 安裝完成後，會開啟一個 MetaMask 設定頁面，或者點擊瀏覽器右上角的擴充圖標，在下拉選單中選擇 MetaMask 圖標，開始設定。
-   ![MetaMask 擴充程式圖標位置](/qday/metamask/metamask-display-icon.png)
-   （可以通過點擊 “在工具欄中顯示” 將 MetaMask 圖標直接顯示到工具欄中）
+4. 安裝完成後，點擊瀏覽器工具欄中的 MetaMask 擴充程式圖標即可開始設定。
 
 ## 建立 MetaMask 錢包帳戶
 
-1. 點擊工具欄中的 MetaMask 圖標，開啟 MetaMask 擴充程式設定頁面，點擊 “Create a new wallet（建立新錢包）”；
-   ![建立 MetaMask 錢包](/qday/metamask/create-metamask-wallet.png)
-2. 在彈出的 “Choose an option to continue（選擇一個選項繼續）” 窗口，點擊 “Use Secret Recovery Phrase（使用助記詞）”；
-   ![選擇使用助記詞](/qday/metamask/create-metamask-wallet2.png)
-3. 在建立密碼頁面，設定一個強密碼，勾選 “If I lose this password, MetaMask can’t reset it.（如果我丟失這個密碼，MetaMask 無法為我恢復此密碼。）” 後點擊 “Create password（建立密碼）”；
-   ![設定 MetaMask 密碼](/qday/metamask/set-metamask-password.png)
-4. 在 “Save your Secret Recovery Phrase（保存您的助記詞）” 頁面，點擊 “Tap to reveal（點擊以顯示）” 區域，顯示助記詞，複製12個單字的助記詞備份到本地（非常重要！），並妥善保管。完成後點擊 “繼續” 按鈕；
-   ![備份 MetaMask 助記詞](/qday/metamask/backup-metamask-mnemonic.png)
-5. 在 “Confirm your Secret Recovery Phrase（確認助記詞）”頁面，按照提示的順序選擇底部三個對應的單詞填寫空缺的部分來驗證你的助記詞，點擊 “繼續”，驗證無誤會彈出 “Perfect That’s right!（太好了，沒錯！）” 窗口點擊 “Got it（知道了）” 按鈕；
-   ![驗證 MetaMask 助記詞](/qday/metamask/verify-metamask-mnemonic.png)
-6. 在 “Help us improve MetaMask（協助我們改進 MetaMask）” 頁面，按需選擇，點擊 “Continue（繼續）” 按鈕，在 “Your wallet is ready!（你的錢包已準備好！）” 點擊 “完成” 完成錢包創建。
-   ![MetaMask 改進](/qday/metamask/metamask-improve.png)
+1. 點擊瀏覽器工具列中的 MetaMask 擴充程式圖標開始設定。
+2. 選擇「建立新錢包 (Create a new wallet)」。
+3. 根據畫面指示建立高強度密碼。
+4. MetaMask 會產生一組助記詞 (Secret Recovery Phrase)。請務必按照精確順序將所有 12 個單字抄寫下來，並保存在安全、離線的地方。
+5. 在系統要求時驗證您的助記詞，以完成錢包建立流程。
 
-**注意**：助記詞和私鑰是你錢包帳戶的唯一備份，務必妥善保管，不要與他人分享。
+:::warning 重要提示：
+您的助記詞是您 MetaMask 錢包的主要備份。任何擁有此助記詞的人都可以控制您的資產。
+建立 MetaMask 錢包會使用您的助記詞生成一個新的錢包備份。
+如果您之後使用私鑰匯入帳戶，該匯入的帳戶可能無法使用您剛剛建立的 MetaMask 錢包助記詞來恢復。
+請務必安全備份任何匯入的私鑰，或確保您能存取建立該帳戶的原始錢包。
+:::
+
+:::danger 絕對不要做以下事情：
+- 絕對不要與任何人分享您的助記詞
+- 絕對不要將其輸入到任何網站
+- 絕對不要將其儲存在截圖、電子郵件、聊天應用程式或雲端筆記中
+- 絕對不要提供給任何自稱是客服支援的人
+:::
 
 ## 取得錢包地址
 
-1. 在瀏覽器工具欄中點擊 MetaMask 圖標，彈出視窗中點擊頂部左側的 “Account 1” 後面的下拉圖標；
-   ![选择 MetaMask 錢包](/qday/metamask/get-metamask-address1.png)
-2. 在帳戶列表中點擊 “Account 1” 後面的三點選單圖標，在彈出的菜單中選擇 “Addresses（地址）”；
-   ![展开 MetaMask 錢包菜单](/qday/metamask/get-metamask-address2.png)
-3. 在 “Addresses（地址）” 頁面，點擊 “Copy to clipboard（複製到剪貼板）” 圖標按鈕，複製錢包地址到本地剪貼簿，或者點擊 “Show QRCode（顯示二維碼）” 圖標按鈕，在錢包地址下方點擊 “Copy address（複製地址）” 按鈕，複製錢包地址到本地剪貼簿，此處二維碼方便使用移動錢包進行掃碼轉帳。
-   ![複製 MetaMask 錢包地址](/qday/metamask/get-metamask-address3.png)
+1. 開啟 MetaMask。
+2. 選擇您想使用的帳戶。
+3. 點擊帳戶名稱或地址區域，將您的錢包地址複製到剪貼簿。
+
+:::info 備註：
+您的錢包地址是公開的，可以分享給他人以接收資產。
+:::
+
+:::warning 安全提示：
+在發送或接收資金之前，請務必再次檢查貼上的地址。某些惡意軟體可能會替換您剪貼簿中複製的錢包地址。
+:::
+
+![複製 MetaMask 錢包地址](/qday/metamask/get-metamask-address3.png)
 
 ## 新增 QDAY 網路到 MetaMask
 
-### 自動新增 QDAY 至 MetaMask 網路列表
+### 自動新增 QDAY 網路
 
-區塊鏈瀏覽器自動新增 QDAY 至 MetaMask 網路功能已经推出：
+1. 訪問 [QDay 區塊鏈瀏覽器](https://explorer.qday.io)。
+2. 點擊頁面右上角的 “Add QDay Mainnet（新增 QDay 主網）” 按鈕，確認後即可自動將 QDAY 網路新增至 MetaMask。
+3. 如果 MetaMask 開啟網路核准提示，請在核准前仔細確認網路詳情。
+   確認以下資訊無誤後再行確認：
+   - 網路名稱 (Network Name): QDAY
+   - RPC 連結 (RPC URL): https://rpc.qday.io
+   - 鏈 ID (Chain ID): 44001
+   - 貨幣代碼 (Currency Symbol): QDAY
+   - 區塊瀏覽器 (Block Explorer URL): https://explorer.qday.io
 
-1. 请访问 [QDay 浏览器](https://explorer.qday.io)；
-2. 点击页面右上角的 “Add QDay Mainnet（添加 QDay 主网）” 按钮，确认后即可自动将 QDAY 网络自动添加到 MetaMask。
+### 手動新增 QDAY 網路
 
-### 手動新增 QDAY 到 MetaMask 網路列表
+如果自動新增失敗，您可以選擇手動新增：
 
-1. 在瀏覽器工具欄中點擊 MetaMask 圖標，彈出視窗中點擊頂部右側的 “☰” 菜單圖標，在下拉菜單中選擇 “網路”；
-   ![MetaMask 網路菜單](/qday/metamask/metamask-network-menu.png)
-2. 在彈出的 “Manage networks（管理網路）” 頁面點擊底部的 “Add a custom network（新增自訂網路）” 按鈕；
-   ![手動新增 QDAY 網路](/qday/metamask/add-metamask-network1.png)
-3. 在手動新增網路頁面，填寫以下資訊：
+1. 打開 MetaMask，點擊右上角的 “☰” 選單圖標，然後選擇 **“網路 (Networks)”**。
+2. 點擊 **“Add a custom network（新增自訂網路）”** 並填寫以下資訊：
    - **網路名稱**: QDAY
-   - **Default RPC URL（預設 RPC 連結）**: `https://rpc.qday.io`
+   - **預設 RPC 連結**: `https://rpc.qday.io`
    - **鏈 ID**: 44001
    - **貨幣代碼**: QDAY
    - **區塊瀏覽器**: `https://explorer.qday.io`
+
    ![手動新增 QDAY 網路](/qday/metamask/add-metamask-network2.png)
-   點擊 “儲存” 按鈕完成新增。
 
-### 連接 QDAY 網路
+3. 點擊 **“儲存”** 即可切換並連接到 QDAY 網路。
 
-點擊工具欄中的 MetaMask 圖標，在帳戶界面點擊 “Tokens（代幣）” 標籤頁，點擊左上角的網路列表選擇器中選擇並切換到 “QDAY”。
-   ![MetaMask 切換 QDAY 網路](/qday/metamask/switch-metamask-qday-network.png)
+## 匯入 QDAY 錢包
 
-## 匯入 QDAY 钱包
+1. 首先從 Abelian 行動錢包應用程式匯出您的 QDAY 錢包私鑰。
+2. 在 MetaMask 中，點擊左上角的帳戶下拉圖標，選擇 **“Add wallet（新增錢包）”** > **“Import an account（匯入一個帳戶）”**。
 
-:::tip 提示
-此步驟需要先從 Abelian 行動錢包應用程式的 QDAY 錢包帳戶詳情頁面備份私鑰，然後按照下面的步驟將 QDAY 錢包帳戶匯入到 MetaMask。
-:::
-
-1. 點擊工具欄中的 MetaMask 圖標，在彈出視窗中，點擊頂部左側的 “Account1” 後的下拉圖標進入帳戶列表，點擊 “Add wallet（新增錢包）” 再建立一個新帳戶;
-   ![新增 MetaMask 帳戶](/qday/metamask/add-metamask-account.png)
-2. 在新增帳戶頁面，選擇 “Import an account（匯入一個帳戶）” 匯入來自 Abelian 行動錢包的 QDAY 錢包帳戶；
    ![匯入 QDAY 錢包帳戶](/qday/metamask/import-qday-account.png)
-3. 在 “Add wallet（新增錢包）” 頁面，选择 “私鑰” 并輸入從 Abelian 行動錢包備份的私鑰字符串，點擊 “匯入” 按鈕完成 QDAY 錢包匯入；
-   ![輸入 QDAY 錢包私鑰](/qday/metamask/input-qday-privatekey.png)
-4. 在帳戶列表界面會新增一個名為 “Imported Account 1” 的錢包帳戶，這裡可以點擊右側的三點菜單圖標，在彈出的菜單中選擇 “Rename（重命名）”，在彈出的 “帳戶名稱” 框中輸入新的錢包名稱，完成後點擊 “確認” 按鈕完成重命名；
-   ![重命名 MetaMask 帳戶](/qday/metamask/rename-metamask-account.png)
-5. 這裡示例帳戶命名 “QDAY-1”，點擊選擇该帳戶，兩個帳戶可以在帳戶列表中切換。
-   ![選擇 MetaMask 帳戶](/qday/metamask/select-metamask-account.png)
 
-## 新增 QDAY ERC20 代幣到 MetaMask
+3. 選擇 **“私鑰”** 並貼上您剛剛備份的私鑰字串，點擊 **“匯入”**，您的 QDAY 錢包便成功匯入 MetaMask。
+
+   ![輸入 QDAY 錢包私鑰](/qday/metamask/input-qday-privatekey.png)
+
+## 新增 ERC20 代幣到 MetaMask
 
 ### 新增 USD8 代幣到 MetaMask
 
-1. 在瀏覽器工具欄中點擊 MetaMask 圖標，在主介面的 “Tokens（代幣）” 標籤頁中點擊 “Import tokens（匯入代幣）”；
+1. 首先請確認 MetaMask 已切換至 QDAY 網路。
+2. 在 **“Tokens（代幣）”** 標籤頁下方點擊 **“Import tokens（匯入代幣）”**。
+
    ![MetaMask 匯入 USD8 代幣1](/qday/metamask/import-tokens1.png)
-2. 在 “Import tokens（匯入代幣）” 頁面先選擇 QDAY 網路，然後在 “Token contract address（代幣合約地址）” 欄中輸入 USD8 Token 地址：`0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB`;
+
+3. 將下方表格中對應的代幣合約地址貼入 “Token contract address（代幣合約地址）” 欄位。
+
    ![MetaMask 匯入 USD8 代幣2](/qday/metamask/import-tokens2.png)
-3. 稍等一會會自動載入 USD8 Token 的資訊 - Token symbol（代幣符號） 和 Token decimal（代幣小數點單位），點擊 “Next（下一步）” 按鈕；
-4. 顯示確認匯入視窗，點擊 “Import（匯入）” 按鈕完成匯入。
+
+4. 其餘資訊會自動載入，點擊 **“Next（下一步）”** 然後點擊 **“Import（匯入）”** 即可完成。
+
    ![MetaMask 匯入 USD8 代幣3](/qday/metamask/import-tokens3.png)
-5. MetaMask 主介面的 Tokens（代幣） 標籤頁可以看到已經顯示了 USD8 代幣的餘額數字。
-   ![MetaMask 顯示 USD8 代幣](/qday/metamask/usd8-tokens.png)
 
 ### 新增 WQDAY、WABEL 代幣
 
 #### 代幣合約地址清單
 
-| 合約名稱 | 地址                                       | 描述             |
-| -------- | ------------------------------------------ | ---------------- |
-| USD8     | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB | 美元代幣合約     |
-| WQDAY    | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 | 包裝QDAY代幣合約 |
-| WABEL    | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 | 包裝ABEL代幣合約 |
+| 合約名稱  | 代幣合約地址                               |
+| --------- | ------------------------------------------ |
+| **USD8**  | 0x668FaAFd6b363d6cED62491BfCBE2A39da3D14cB |
+| **WQDAY** | 0xEF253e9FC2d063869FD5B3C0E1c326aB7E030660 |
+| **WABEL** | 0x3a4D0834fe667D780c0fa434Ec9c1c3b08181882 |
 
-提示：[按照 USD8 的步驟](#新增-usd8-代幣到-metamask) 將 WQDAY 和 WABEL 代幣新增到 MetaMask。
-
+提示：按照上方相同步驟，將 WQDAY 和 WABEL 代幣新增到 MetaMask。

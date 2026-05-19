@@ -30,22 +30,6 @@ Now that you understand the QDay ecosystem, choose your path:
 
 - [**New to QDay?**](/guide/metamask)
 - [**New to ABEL?**](/guide/abelian-mobile-wallet)
-
-### QDay Mainnet
-
-- [**QDay Portal**](https://portal.qday.io) `Through the asset QDay Portal, you can quickly access the services and tools of the QDay ecosystem.`
-- [**QDay Bridge**](https://abel-bridge.qday.io)
-- [**QDay Swap**](https://swap.qday.io)
-- [**QDay Staking**](https://qday-staking.qday.io) / [**ABEL Staking**](https://abel-staking.qday.io)
-- [**QDay Explorer**](https://explorer.qday.io) / [**ABEL Explorer**](https://explorer.abelian.io)
-
-### QDay Testnet
-
-- [**QDay Portal**](https://portal.qday.info)
-- [**QDay Testnet Faucet**](https://fi.qday.info/en/dapps/faucet)
-- [**QDay Bridge**](https://abel-bridge.qday.info)
-- [**QDay Swap**](https://swap.qday.info)
-- [**QDay Staking**](https://qday-staking.qday.info) / [**ABEL Staking**](https://abel-staking.qday.info)
-- [**QDay Explorer**](https://explorer.qday.info) / [**ABEL Explorer**](https://explorer.abelian.info)
+- [**QDay Portal**](https://portal.qday.io) `Through the asset QDay Portal, you can quickly access the services 
 
 Welcome to the QDay community! 🚀

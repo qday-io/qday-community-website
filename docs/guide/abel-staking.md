@@ -4,134 +4,95 @@ outline: deep
 
 # ABEL Staking User Guide
 
-## Prerequisites
+## Introduction: How ABEL Staking Works
 
-Before you begin staking, please ensure you have the following:
+Staking is like putting your digital assets into a high-yield savings account. In exchange for "locking" your tokens for a set period, you earn daily rewards.
 
-- An EVM-compatible wallet (MetaMask recommended)
-- ABEL tokens in your Abelian mobile wallet
-- A small amount of QDAY for transaction fees on QDay network
+### The 3-Step Process:
 
-:::tip Tip
-If you don't have a MetaMask wallet yet, please refer to the [MetaMask Wallet User Guide](/guide/metamask).
+1. **Set up your Digital Wallet**: You will use MetaMask to hold and manage your funds.
+2. **Convert your Tokens**: You must change your standard ABEL tokens into WABEL so they can work on the staking network.
+3. **Deposit and Earn**: You choose how many tokens to stake and how long to lock them to start earning rewards.
+
+:::warning Important Notice
+You cannot use the standard Abelian Mobile Wallet app to stake directly on this website. Because the Abelian network is technically different from the systems used by web wallets, you must use MetaMask and the WABEL conversion process described below.
 :::
 
-## What Is the Purpose of ABEL Staking?
+## Prerequisites
 
-ABEL Staking allows you to stake ABEL tokens and earn QDAY tokens every day. It is one of the core features of the QDay ecosystem, designed for long-term supporters of the post-quantum Abelian network.
+Before staking, please ensure you have the following ready:
 
-By converting ABEL into its wrapped form, **WABEL**, you can stake WABEL for a period of your choice—ranging from **3 months to 4 years**. The longer the staking period, the more QDAY tokens you earn each day.
+- An EVM-compatible wallet (MetaMask recommended) with QDay Mainnet active.
+- WABEL tokens in your wallet (ABEL converted via the QDay Bridge from the Abelian network).
+- A small amount of WABEL for transaction fees on the QDay network.
 
-This system transforms passive ABEL holdings into an active, yield-generating asset, aligning user incentives with ecosystem growth.
+### How to get WABEL?
 
-## How It Works
-
-To participate in ABEL Staking, follow these three simple steps:
-
-1. **Convert ABEL → WABEL**:
-
-   Visit [portal.qday.io](http://portal.qday.io) and use the official Abelian Chain Bridge to convert ABEL tokens on the Abelian network into wrapped ABEL tokens (WABEL) on the QDay network.
-
-2. **Stake WABEL and Receive cvxQDAY**:
-
-   Choose how long you want to lock your WABEL tokens (minimum: 3 months). Immediately after staking, you will receive cvxQDAY tokens, which serve as your staking receipt and reward credential.
-
-3. **Earn QDAY**:
-
-   As long as you hold cvxQDAY, you will receive daily QDAY airdrops. Once your lock-up period ends, you can return your cvxQDAY to unstake your WABEL. You may then optionally convert WABEL back to ABEL via the Abelian Chain Bridge.
+If you don't have WABEL yet, please visit the **[WABEL Conversion page](https://portal.qday.io/en/abel-conversion)** to convert your ABEL cross-chain to WABEL.
 
 ## Tutorial
 
 Follow these steps to start staking:
 
-### Step 1: Convert ABEL to WABEL
+### Step 1: Wallet setup
 
-- Go to the QDay Portfolio: <https://portal.qday.io/>
+Log into MetaMask and add the QDay Mainnet as a custom network. For detailed instructions, please refer to [MetaMask Wallet User Guide - Add QDay Network](/guide/metamask#add-qday-network-to-metamask).
 
-- Click on the **Bridge** page.
+### Step 2: Access the Staking Page
 
-  ![Bridge page interface](/qday/abel-staking/image1.png)
+- Go to <https://portal.qday.io/>
+- Click **"Staking"** in the left navigation menu to enter the Staking page.
 
-- Click **"Connect Wallet"** to connect your EVM wallet (e.g., MetaMask).
+  ![Staking portal homepage](/qday/staking/portal-2.png)
 
-- In your wallet, add the QDay Mainnet as a custom network. For detailed instructions, please refer to [MetaMask Wallet User Guide - Add QDay Network](/guide/metamask#add-qday-network-to-metamask).
+- Click **"Connect Wallet"** to link your wallet.
 
-  ![Connect wallet prompt](/qday/abel-staking/image2.png)
+  ![Connect wallet options](/qday/staking/qday-connect-wallet-dialog.png)
 
-  ![Add QDay Mainnet to MetaMask](/qday/abel-staking/image3.png)
+### Step 3: Stake
 
-- Switch your wallet to QDay Mainnet.
+#### Staking
 
-- Return to the Abelian Chain Bridge.
+- Select **WABEL** from the "Select Token" dropdown.
 
-- Select **"Abelian"** in the **"From"** section (the **"To"** section will automatically switch to **"QDay"**). Manually enter the amount of ABEL and your QDay receiving address (which will also be your WABEL receiving address).
+  ![WABEL staking interface](/qday/staking/wabel-staking.png)
 
-- Click **"Generate QR Code"**.
+- Once your WABEL balance is sufficient (minimum staking amount: 1,000 WABEL), enter the amount to stake, choose your lock-up period, then click **"Stake"** and confirm in your wallet.
 
-  ![Bridge interface with amount input](/qday/abel-staking/image4.png)
+#### My Staking
 
-  ![Generated QR code for cross-chain transfer](/qday/abel-staking/image5.png)
+After staking, you can view your details in the "My Staking" tab:
 
-- Use your Abelian mobile wallet to scan the QR code.
+- **Daily rewards accumulate automatically** → **Claim** your pending rewards → **Withdraw** from your vault balance to your EVM wallet.
+- Each record shows the staking amount, lock period, and remaining days, providing the following actions:
+  - **Extend Lock Period**: Extend the lock-up duration to continue accumulating rewards.
+  - **Add Stake**: Add more tokens to an existing position to increase your daily rewards.
+  - **Unstake**: Withdraw your staked tokens once the lock-up period has expired. Not available during the lock period.
 
-  ![Scan QR code with Abelian mobile wallet](/qday/abel-staking/image6.png)
+#### Dashboard
 
-- Verify the received WABEL amount.
+Click the **"Dashboard"** tab in the left navigation menu to get a comprehensive view of all your staked assets.
 
-  ![WABEL balance confirmation](/qday/abel-staking/image7.png)
+## Understanding Your Rewards
 
----
+- **The Multiplier**: The longer you promise to leave your tokens locked, the higher your daily "paycheck" will be. For example, choosing a 4-year lock gives you a 1500% multiplier on your share of the rewards.
+- **Daily Payouts**: You don't have to wait years to see your progress. Even if your main deposit is locked, your rewards accumulate and are distributed every single day.
+- **Withdraw Anytime**: You can "Claim" your rewards and move them to your wallet whenever you want without affecting your locked deposit.
+- **Lock-up Weighting**: The system is designed to favor long-term supporters; the longer the lock-up, the higher the share allocation.
+- **Variable Rewards**: The figures above describe the staking multiplier structure. Actual rewards are not guaranteed and may vary based on total pool participation, network conditions, and your specific lock-up selection.
 
-### Step 2: Stake WABEL
+## Frequently Asked Questions (FAQ)
 
-- Go to the **ABEL Staking** page and connect your wallet if you haven't already.
+### Q1: Can an Abelian network be added to MetaMask?
 
-- Enter the amount of WABEL to stake, choose your lock period, and click **"Stake WABEL"**.
+**Answer**: No.
 
-  ![ABEL Staking interface with amount and lock period selection](/qday/abel-staking/image8.png)
+Abelian is an independent post-quantum blockchain network that uses a different technical architecture from EVM. MetaMask is designed specifically for Ethereum Virtual Machine (EVM) compatible chains and therefore cannot support the Abelian network.
 
-### Step 3: Earn Daily QDAY
-
-After confirmation, cvxQDAY and WQDAY will appear in your wallet.
-
-:::tip Important
-Think of cvxQDAY as both a **"staking receipt"** and a **"reward credential"**. You earn rewards every day as long as you hold cvxQDAY tokens.
+:::warning Note
+If you need to use the Abelian network (e.g., to hold ABEL for cross-chain conversion), please use the [Abelian mobile wallet application](/guide/abelian-mobile-wallet).
 :::
 
-  ![cvxQDAY and WQDAY tokens in wallet](/qday/abel-staking/image9.png)
+### Q2: What is the minimum staking amount for WABEL?
 
-### Step 4: Unstake After Expiry
-
-- Once your lock-up period ends, go to the **"Unstake"** tab.
-
-- Enter the WABEL amount and click **"Unstake WABEL"**. The system will revoke your cvxQDAY and return your WABEL.
-
-- *(Optional)* Return to the Abelian Chain Bridge to convert WABEL back to ABEL.
-
-## Reward Details
-
-**Maximize Your Crypto Rewards!**
-
-ABEL Staking offers different reward rates based on your lock-up duration—with annualized rates reaching up to **1500%**. Rewards are distributed daily.
-
-
-Here's how much you can earn based on your lock-up period:
-
-| **Lock-up Period** | **Days Range** | **Multiplier** |
-| ------------------ | -------------- | -------------- |
-| 3 months           | 90–179 days    | 40%            |
-| 6 months           | 180–364 days   | 100%           |
-| 12 months          | 365–729 days   | 250%           |
-| 24 months          | 730–1094 days  | 600%           |
-| 36 months          | 1095–1459 days | 1000%          |
-| **48 months**      | **1460 days**  | **1500%**      |
-
-Lock up longer, earn significantly more—and get paid daily. It's that simple!
-
-## Why "cvxQDAY"?
-
-The prefix **"cvx"** stands for `convex`, reflecting the non-linear reward curve: longer lock-ups yield disproportionately higher returns—a common design in advanced DeFi protocols. Paired with "QDAY," it signals both the mechanism and the ecosystem.
-
----
-
-**Stake ABEL today. Earn QDAY daily—with up to a 1500% boost for long-term believers!**
+**Answer**: The minimum staking amount is **1,000 WABEL**.

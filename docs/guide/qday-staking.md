@@ -6,37 +6,31 @@ outline: deep
 
 ## Prerequisites
 
-Before you begin staking, please ensure you have the following:
+Before staking, please ensure you have the following:
 
-- An EVM-compatible wallet (MetaMask recommended)
-- Sufficient QDAY tokens in your wallet for staking
-- A small amount of QDAY for transaction fees
+- An EVM-compatible wallet, such as MetaMask, with QDay Mainnet added
+- Sufficient QDAY or WQDAY in your wallet
+- A small amount of QDAY to pay network transaction fees
+- Access to the correct official QDAY staking portal
+- An understanding of the selected lock-up period and its restrictions
 
-:::tip Tip
-If you don't have a MetaMask wallet yet, please refer to the [MetaMask Wallet User Guide](/guide/metamask).
+:::warning Important risk notice:
+- Staking involves interacting with smart contracts
+- Blockchain transactions are generally irreversible once confirmed
+- Locked tokens cannot be unstaked until the lock-up period expires
+- Reward rates and distributions may change over time according to the protocol design
+- Always verify the website URL and wallet prompt details before approving transactions
 :::
 
-## What Is the Purpose of QDAY Staking?
+### How do I get QDAY?
 
-QDAY Staking allows you to stake your existing QDAY tokens and earn more QDAY tokens every day---exactly as it sounds: as long as you hold QDAY, you can grow your QDAY holdings through staking.
+- **Method 1: Stake ABEL to earn QDAY**
+  1. First, you need to purchase ABEL. You can buy it through MEXC, BitMart exchanges, or via the In-app purchase feature in the Abelian Mobile Wallet.
+  2. Stake your ABEL to receive QDAY rewards. For detailed steps, please refer to the [ABEL Staking User Guide](/guide/abel-staking).
 
-### Staking Benefits
-
-- **Passive Income**: Earn stable daily rewards through staking
-- **Secure and Reliable**: Smart contracts execute automatically without trusting third parties
-- **Flexible Options**: Freely choose your lock-up period; longer lock-ups yield higher rewards
-
-## How It Works
-
-To participate in the QDAY Staking, follow these two simple steps:
-
-1. **Stake QDAY**:
-
-   Visit [portal.qday.io](http://portal.qday.io) and click the QDAY Staking page, choose your lock-up period, and stake your QDAY tokens.
-
-2. **Claim QDAY Rewards**:
-
-   Once staked, you begin receiving **daily validator rewards** in QDAY automatically.
+- **Method 2: Swap USD8 for QDAY**
+  1. Via **[QDay Bridge](https://portal.qday.io/en/bridge)**: Use USDT (ETH) to buy USD8, or use the In-app purchase feature in the Abelian Mobile Wallet to buy USD8.
+  2. Via **[QDay Swap](https://portal.qday.io/en/qday-swap)** or the In-app swap feature in the Abelian Mobile Wallet: Swap USD8 for QDAY. For detailed steps, refer to the [QDay Swap User Guide](/guide/swap).
 
 ### Staking Mechanism
 
@@ -48,87 +42,81 @@ To participate in the QDAY Staking, follow these two simple steps:
 
 Follow these steps to start staking:
 
-### Step 1: Set up your wallet
+### Step 1: Wallet setup
 
-- Log in your EVM wallet (e.g., MetaMask) and add the QDay Mainnet as a custom network. For detailed instructions, please refer to [MetaMask Wallet User Guide - Add QDay Network](/guide/metamask#add-qday-network-to-metamask).
+Log into MetaMask and add the QDay Mainnet as a custom network. For detailed instructions, please refer to [MetaMask Wallet User Guide - Add QDay Network](/guide/metamask#add-qday-network-to-metamask).
 
-  ![Add QDay Mainnet to MetaMask](/qday/staking/image1.png)
-  
-  ![QDay Mainnet added successfully](/qday/staking/image2.png)
+### Step 2: Access the Staking Page
 
-- Switch your wallet to QDay Mainnet.
+- Go to <https://portal.qday.io/>
+- Click **"Staking"** in the left navigation menu to enter the Staking page.
 
-### Step 2: Access to QDAY Staking
+  ![Staking portal homepage](/qday/staking/portal-2.png)
 
-- Go to the <https://portal.qday.io/>
+- Click **"Connect Wallet"** and select your preferred wallet (supports MetaMask, WalletConnect, Rainbow) to link your wallet.
 
-- Click the **"QDAY Staking"** tab and it will redirect to QDAY Staking.
+  ![Connect wallet options](/qday/staking/qday-connect-wallet-dialog.png)
 
-  ![QDAY Staking page navigation](/qday/staking/image3.png)
+### Step 3: Stake
 
-- Click **"Connect Wallet"** and link your wallet.
+#### Staking
 
-  ![Connect wallet interface](/qday/staking/image4.png)
+- Ensure **WQDAY** is selected from the "Select Token" dropdown.
 
-### Step 3: Stake QDAY
+  ![WQDAY staking interface](/qday/staking/wqday-staking.png)
 
-- Enter the amount of WQDAY/QDAY to stake → Enter the number of days you want to lock your account → Click **"Convert & Stake"** and confirm the transaction in your wallet.
-
-:::warning Note
-  1. The longest lock-up period cannot exceed 1460 days.
-  2. When you stake, your QDAY will be automatically converted to WQDAY (the wrapped token) if you have a sufficient balance.
-:::
-
-  ![Staking interface with amount and lock period input](/qday/staking/image5.png)
-
-- Check your staking status in **"Your Staking Stats"** section
-
-  ![Staking statistics display](/qday/staking/image6.png)
-
-### Step 4: Rewards and Withdraw
-
-**Daily rewards** accumulate automatically → **Claim** your pending rewards → **Withdraw** from your vault balance to your EVM wallet.
-
-  ![Rewards claim and withdraw interface](/qday/staking/image7.png)
-
-## Reward Details
-
-**A. Reward Pool**
-50% of the total QDAY supply (approximately 11.259 billion tokens) is allocated for staking rewards.
-
-**B. Daily Distribution**
-Each day, 1/1000 of the remaining rewards in the pool is distributed to stakers. The daily payout decreases gradually over time.
-
-**C. Reward Share Calculation**
-Your daily reward is determined by your Share, which is calculated as:
-Number of QDAY staked × Remaining lock-up days
-
-Example:
-
-You stake 100 QDAY with a 1,460-day lock-up:
-Your Share = 100 × 1,460 = 146,000
-
-Meanwhile, another user stakes 200 QDAY with a 730-day lock-up:
-Their Share = 200 × 730 = 146,000
-
-**Stake more tokens or choose a longer lock-up period to increase your daily rewards.**
-
-## Frequently Asked Questions (FAQ)
-
-### Q1: Can an Abelian network be added to MetaMask?
-
-**Answer**: No.
-
-Abelian is an independent post-quantum blockchain network that uses a different technical architecture from EVM. MetaMask is designed specifically for Ethereum Virtual Machine (EVM) compatible chains and therefore cannot support the Abelian network.
+- Enter the amount of WQDAY/QDAY to stake, choose your lock-up period, then click **"Stake"** and confirm the transaction in your wallet.
 
 :::warning Note
-If you need to use the Abelian network, please use the [Abelian mobile wallet application](/guide/abelian-mobile-wallet).
+1. The maximum lock-up period is 1460 days (4 years).
+2. When staking **QDAY**, your QDAY will be automatically converted to WQDAY (the wrapped token) if you have a sufficient balance.
 :::
 
-### Q2: Can a QDAY network be added to MetaMask?
+#### My Staking
 
-**Answer**: Yes.
+After staking, you can view your details in the "My Staking" tab:
 
-The QDAY network is an EVM-compatible blockchain that fully supports MetaMask wallet. You can easily add the QDAY Mainnet to MetaMask and use MetaMask for QDAY token management, transfers, and staking operations.
+- **Daily rewards accumulate automatically** → **Claim** your pending rewards → **Withdraw** from your vault balance to your EVM wallet.
+- Each record shows the staking amount, lock period, and remaining days, providing the following actions:
+  - **Extend Lock Period**: Extend the lock-up duration of an existing stake to continue accumulating rewards.
+  - **Add Stake**: Add more tokens to an existing staking position to increase daily rewards.
+  - **Unstake**: Withdraw your staked tokens once the lock-up period has expired. Not available during the lock period.
 
-For detailed instructions, please refer to [Step 1: Set up your wallet](#step-1-set-up-your-wallet) in this guide, or check the [MetaMask Wallet User Guide](/guide/metamask#add-qday-network-to-metamask).
+  ![My Staking details](/qday/staking/qday-stake-details.png)
+
+#### Dashboard
+
+Click the **"Dashboard"** tab in the left navigation menu to get a comprehensive view of all your staked assets.
+
+  ![Dashboard Details](/qday/staking/dashboard.png)
+
+## About WQDAY Staking Rewards
+
+### Reward Pool
+- 50% of the total QDAY supply, approximately 11.259 billion tokens, is allocated for staking rewards.
+
+### Daily Distribution
+- Each day, 1/1000 of the remaining reward pool is distributed to stakers.
+- Because the distribution is calculated from the remaining pool, the daily payout decreases gradually over time.
+
+### Reward Share Calculation
+Your daily reward is based on your Share, calculated as:
+**Share = Amount Staked × Remaining Lock-up Days**
+
+**Example:**
+- If you stake 100 QDAY with a 1460-day lock-up, your share is:
+  100 × 1460 = 146,000
+- If another user stakes 200 QDAY with a 730-day lock-up, their share is:
+  200 × 730 = 146,000
+
+In this simplified example, both staking positions have the same share, so they would receive the same proportion of the daily distribution, assuming all other conditions are the same.
+
+:::warning Important:
+- This is a simplified explanation for reference.
+- Rewards are not fixed or guaranteed.
+- Actual rewards depend on factors such as:
+  - the amount remaining in the reward pool
+  - the total shares of all participating stakers
+  - changes in staking positions over time
+:::
+

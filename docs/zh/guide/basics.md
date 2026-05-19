@@ -28,23 +28,9 @@ outline: deep
 
 現在您已經了解了 QDay 生態系統，請選擇您的路徑：
 
-- [**QDay 新手？**](/zh/guide/metamask) / [**ABEL 新手？**](/zh/guide/abelian-mobile-wallet)
-
-### QDay 主網
-
+- [**QDay 新手？**](/zh/guide/metamask)
+- [**ABEL 新手？**](/zh/guide/abelian-mobile-wallet)
 - [**QDay 資產組合**](https://portal.qday.io) `通過資產組合，您可以快速訪問 QDay 生態系統的服務和工具。`
-- [**QDay 跨鏈橋**](https://abel-bridge.qday.io)
-- [**QDay 兌換**](https://swap.qday.io)
-- [**QDay 質押**](https://qday-staking.qday.io) / [**ABEL 質押**](https://abel-staking.qday.io)
-- [**QDay 瀏覽器**](https://explorer.qday.io) / [**ABEL 瀏覽器**](https://explorer.abelian.io)
 
-### QDay 測試網
-
-- [**QDay 資產組合**](https://portal.qday.info)
-- [**QDay 測試網水龍頭**](https://fi.qday.info/tw/dapps/faucet)
-- [**QDay 跨鏈橋**](https://abel-bridge.qday.info)
-- [**QDay 兌換**](https://swap.qday.info)
-- [**QDay 質押**](https://qday-staking.qday.info) / [**ABEL 質押**](https://abel-staking.qday.info)
-- [**QDay 瀏覽器**](https://explorer.qday.info) / [**ABEL 瀏覽器**](https://explorer.abelian.info)
 
 歡迎加入 QDay 社群！ 🚀

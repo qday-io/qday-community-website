@@ -26,7 +26,6 @@ export default defineConfig({
             items: [
               { text: 'Explorer', link: 'https://explorer.qday.io' },
               { text: 'Portal', link: 'https://portal.qday.io' },
-              { text: 'Bridge', link: 'https://portal.qday.io/en/bridge' },
               { text: 'Swap', link: 'https://portal.qday.io/en/qday-swap' },
               { text: 'Staking', link: 'https://portal.qday.io/en/staking' }
             ]
@@ -65,9 +64,9 @@ export default defineConfig({
                     { text: 'QDay Basics', link: '/guide/basics' },
                     { text: 'MetaMask Wallet', link: '/guide/metamask' },
                     { text: 'Abelian Mobile Wallet', link: '/guide/abelian-mobile-wallet' },
-                    { text: 'ABEL Bridge', link: '/guide/bridge' },
                     { text: 'QDay Staking', link: '/guide/qday-staking' },
-                    { text: 'ABEL Staking', link: '/guide/abel-staking' }
+                    { text: 'ABEL Staking', link: '/guide/abel-staking' },
+                    { text: 'QDAY Swap', link: '/guide/swap' }
                   ]
                 }
               ]
@@ -142,9 +141,9 @@ export default defineConfig({
                     { text: 'QDay 基礎知識', link: '/zh/guide/basics' },
                     { text: 'MetaMask 錢包', link: '/zh/guide/metamask' },
                     { text: 'Abelian 行動錢包', link: '/zh/guide/abelian-mobile-wallet' },
-                    { text: 'ABEL 跨鏈橋', link: '/zh/guide/bridge' },
                     { text: 'QDay 質押', link: '/zh/guide/qday-staking' },
-                    { text: 'ABEL 質押', link: '/zh/guide/abel-staking' }
+                    { text: 'ABEL 質押', link: '/zh/guide/abel-staking' },
+                    { text: 'QDAY 兌換', link: '/zh/guide/swap' }
                   ]
                 }
               ]

@@ -1,0 +1,53 @@
+---
+outline: deep
+---
+
+# QDay Swap User Guide
+
+QDay Swap is a decentralized exchange platform based on the QDay blockchain, allowing you to quickly swap various tokens and earn yields by providing liquidity.
+
+:::tip Prerequisites
+Before using, please ensure you have installed and set up the [MetaMask Wallet](/guide/metamask.html) and [Added the QDAY Network](/guide/metamask.html#add-qday-network-to-metamask).
+:::
+
+## 1. Token Swap
+
+QDay Swap supports instant swapping among three tokens: **WABEL**, **QDAY**, and **USD8**.
+
+**Operating Steps:**
+1. Visit [QDay Swap](https://portal.qday.io/en/qday-swap) and connect your MetaMask wallet (make sure it is switched to the QDAY network).
+2. Select the tokens you want to pay and receive in the "Swap" interface.
+3. Enter the amount, and the system will automatically calculate the exchange rate and the estimated tokens to be received.
+4. Click "Swap" and confirm the authorization and transaction in your wallet to complete the process.
+
+![QDAY Swap](/qday/swap/swap_en.png)
+
+## 2. Liquidity Pools
+
+By providing tokens to a liquidity pool, you can become a liquidity provider (LP) and earn transaction fee yields. The "Liquidity Pools" page contains two tabs: "Pool Statistics" and "Add Liquidity":
+
+### Pool Statistics
+Here you can view the data of different liquidity pools. You can switch among the following three pairs via the dropdown menu:
+- **QDAY / USD8**
+- **QDAY / WABEL**
+- **WABEL / USD8**
+
+![Pool Statistics](/qday/swap/liquidity_pool_en.png)
+
+### Add Liquidity
+**Operating Steps:**
+1. Switch to the "Add Liquidity" tab and select the token pair you want to provide liquidity for among **WABEL**, **QDAY**, and **USD8**.
+2. Select an appropriate fee tier (the default recommendation is 0.30% or 0.05%), then click the "Continue" button.
+3. In the subsequent interface (as shown in the image below, using QDAY/USD8 as an example), enter the amount of tokens you want to add, and the system will automatically calculate the required amount of the other token based on the current exchange rate.
+4. Click the "Add Liquidity" button at the bottom, authorize and confirm the transaction in your wallet. Once completed, you will receive the corresponding LP share.
+
+![Add Liquidity](/qday/swap/add_liquidity_en.png)
+
+## 3. Manage Positions and Transaction History
+
+- **My Positions**: Click on "My Positions" in the "Liquidity Pools" page to view the details of the liquidity you currently provide, and you can perform the "Remove Liquidity" operation at any time.
+- **Transaction History**: Click on your wallet address in the upper right corner and select "Transaction History" to view all your swap and liquidity operation history.
+
+:::danger Security Warning
+Please make sure to access QDay Swap via the official link (https://portal.qday.io/en/qday-swap) to guard against phishing websites. Before conducting large transactions, it is recommended to test the process with a small amount first.
+:::
