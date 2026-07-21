@@ -65,8 +65,8 @@ export default defineConfig({
                     { text: 'MetaMask Wallet', link: '/guide/metamask' },
                     { text: 'Abelian Mobile Wallet', link: '/guide/abelian-mobile-wallet' },
                     { text: 'QDay Staking', link: '/guide/qday-staking' },
-                    { text: 'ABEL Staking', link: '/guide/abel-staking' },
-                    { text: 'QDAY Swap', link: '/guide/swap' }
+                    { text: 'ABEL Staking', link: '/guide/abel-staking' }
+                    //{ text: 'QDAY Swap', link: '/guide/swap' }
                   ]
                 }
               ]
@@ -142,8 +142,8 @@ export default defineConfig({
                     { text: 'MetaMask 錢包', link: '/zh/guide/metamask' },
                     { text: 'Abelian 行動錢包', link: '/zh/guide/abelian-mobile-wallet' },
                     { text: 'QDay 質押', link: '/zh/guide/qday-staking' },
-                    { text: 'ABEL 質押', link: '/zh/guide/abel-staking' },
-                    { text: 'QDAY 兌換', link: '/zh/guide/swap' }
+                    { text: 'ABEL 質押', link: '/zh/guide/abel-staking' }
+                    //{ text: 'QDAY 兌換', link: '/zh/guide/swap' }
                   ]
                 }
               ]
